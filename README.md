@@ -17,6 +17,9 @@ The corpus is made of around 4300 sentences, with the following distribution :
 - B2 : 1441 sentences (24419 tokens, ~ 16.95 tokens per sentences)
 - C1 : 300 sentences (5482 tokens, ~ 18.27 tokens per sentences)
 
+## Data Split
+The treebank is still being annotated and around 40% of the sentences are yet to be annotated or validated. Therefore, the current version is not representative of the final distribution which prevent us for doing a representative data split that would be stable across release ([see UD data split guidelines](https://universaldependencies.org/release_checklist.html#data-split)). Until the treebank is fully annotated, we will not split the data and release all sentences in a single test folder. Please perform 10 fold cross validation if you are using this treebank for any machine learning task.
+
  
 
 ## Structure of a sentence
