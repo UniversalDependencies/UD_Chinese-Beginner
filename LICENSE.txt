@@ -1,4 +1,8 @@
-The treebank is licensed under the Creative Commons License Attribution-ShareAlike 4.0 International.
+The treebank is licensed under the Creative Commons License Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0)
+
+The sentences itselves were taken from the website https://resources.allsetlearning.com/chinese/grammar/Main_Page with the following license when downloaded (April, 28th of 2023) Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0) (link https://creativecommons.org/licenses/by-nc-sa/3.0/)
+
+Furthermore, the non-commercial requirement means that in addition to prohibiting regular for-profit business use, no website or app that generates any revenue at all through advertising may legally use Chinese Grammar Wiki content through this Creative Commons license. 
 
 The complete license text is available at:
-http://creativecommons.org/licenses/by-sa/4.0/legalcode
+https://creativecommons.org/licenses/by-nc-sa/3.0/
