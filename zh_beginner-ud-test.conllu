@@ -5753,7 +5753,6 @@
 3	点	点	NOUN	_	_	0	root	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=diǎn
 4	半	半	NOUN	_	_	3	nmod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=bàn
 
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = 402
 # structure = Adj. + 死了
 # text = 我饿死了。
@@ -23193,7 +23192,6 @@
 3	上	上	NOUN	_	_	1	obj	_	Gloss=up|SpaceAfter=No|Tone=4|Translit=shàng
 4	。	。	PUNCT	_	_	1	punct	_	SpaceAfter=No|Translit=。
 
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = 1520
 # structure = Subj. + Adj. + 极了
 # text = 味道好极了!
@@ -37205,7 +37203,6 @@
 14	钥匙	钥匙	NOUN	_	_	13	obj	_	SpaceAfter=No|Tone=4_2|Translit=yào_chí
 15	。	。	PUNCT	_	_	1	punct	_	SpaceAfter=No|Translit=。
 
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = 4286
 # structure = 或者 A ，或者 B
 # text = 咱们或者去爬山或者泡温泉。
@@ -42490,7 +42487,6 @@
 22	对	对	ADJ	_	_	20	conj	_	SpaceAfter=No|Tone=4|Translit=dùi
 23	？	？	PUNCT	_	_	12	punct	_	SpaceAfter=No|Translit=？
 
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = 4324
 # structure = Subj. + Verb + 得 + 倒 + Adj.
 # text = 说得倒容易，那你来！
