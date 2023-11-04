@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>2295</sentences><tokens>19999</tokens><words>19999</words><fused>0</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>2295</sentences><tokens>19999</tokens><words>19999</words><fused>0</fused></test>
+  </size>
+  <lemmas unique="1500" /><!-- 。, ，, 我, 了, 的, 你, ？, 不, 个, 他, 是, 这, 都, 很, 吗 -->
+  <forms unique="1500" /><!-- 。, ，, 我, 了, 的, 你, ？, 不, 个, 他, 是, 这, 都, 很, 吗 -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="15">
+    <tag name="ADJ">927</tag><!-- 好, 多, 大, 贵, 快, 忙, 漂亮, 高, 小, 新 -->
+    <tag name="ADP">342</tag><!-- 在, 跟, 给, 以后, 到, 比, 离, 从, 以前, 里 -->
+    <tag name="ADV">2412</tag><!-- 不, 都, 很, 没, 太, 也, 还, 就, 已经, 多 -->
+    <tag name="AUX">1029</tag><!-- 是, 要, 了, 想, 会, 过, 可以, 能, 应该, 有 -->
+    <tag name="CCONJ">152</tag><!-- 和, 一边, 又, 或者, 还是, 再, 跟, 还, 就, 以及 -->
+    <tag name="DET">393</tag><!-- 这, 那, 这里, 每, 这儿, 一点, 点, 一, 所有, 那儿 -->
+    <tag name="INTJ">40</tag><!-- 请, 那个, 对不起, 不好意思, 你好, 哇 -->
+    <tag name="NOUN">4085</tag><!-- 个, 家, 人, 老板, 点, 妈妈, 菜, 公司, 工作, 今天 -->
+    <tag name="NUM">640</tag><!-- 一, 两, 十, 三, 几, 五, 1, 二, 八, 四 -->
+    <tag name="PART">1427</tag><!-- 的, 了, 吗, 吧, 得, 呢, 地, 啊, 什么的, 之 -->
+    <tag name="PRON">2157</tag><!-- 我, 你, 他, 我们, 她, 他们, 你们, 什么, 怎么, 谁 -->
+    <tag name="PROPN">252</tag><!-- 中国, 上海, 北京, 美国, iphone, 小李, john, ktv, 四川, 小张 -->
+    <tag name="PUNCT">3039</tag><!-- 。, ，, ？, ！, 、, ⋯, “, ”, !, " -->
+    <tag name="SCONJ">156</tag><!-- 但是, 就, 因为, 所以, 不过, 可是, 虽然, 但, 也, 才 -->
+    <tag name="VERB">2948</tag><!-- 去, 有, 来, 吃, 说, 做, 喜欢, 到, 看, 买 -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="11">
+    <feat name="Aspect" value="Perf" upos="AUX,PART">5</feat><!-- 过, 了 -->
+    <feat name="Case" value="Gen" upos="PART">460</feat><!-- 的, 什么的, 的话 -->
+    <feat name="Number" value="Plur" upos="PART,PRON">362</feat><!-- 我们, 他们, 你们, 们, 咱们, 她们 -->
+    <feat name="NumType" value="Card" upos="NUM">592</feat><!-- 一, 两, 十, 三, 几, 五, 1, 二, 八, 四 -->
+    <feat name="NumType" value="Ord" upos="NUM">7</feat><!-- 第 -->
+    <feat name="Person" value="1" upos="PRON">841</feat><!-- 我, 我们, 咱们 -->
+    <feat name="Person" value="2" upos="PRON">599</feat><!-- 你, 你们, 您, 你自己 -->
+    <feat name="Person" value="3" upos="PRON">519</feat><!-- 他, 她, 他们, 她们 -->
+    <feat name="Polarity" value="Neg" upos="ADV,VERB">427</feat><!-- 不, 没, 不怎么, 不管, 再不, 没办法 -->
+    <feat name="PronType" value="Ind" upos="PRON">22</feat><!-- 什么, 谁 -->
+    <feat name="PronType" value="Int" upos="PRON">145</feat><!-- 怎么, 什么, 谁, 为什么, 多少, 哪儿, 哪, 几 -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="39">
+    <dep name="acl">109</dep>
+    <dep name="advcl">169</dep>
+    <dep name="advmod">2255</dep>
+    <dep name="amod">157</dep>
+    <dep name="appos">19</dep>
+    <dep name="aux">713</dep>
+    <dep name="case">691</dep>
+    <dep name="cc">259</dep>
+    <dep name="ccomp">272</dep>
+    <dep name="clf">537</dep>
+    <dep name="compound">1</dep>
+    <dep name="compound:svc">107</dep>
+    <dep name="compound:vv">103</dep>
+    <dep name="conj">370</dep>
+    <dep name="cop">275</dep>
+    <dep name="csubj">43</dep>
+    <dep name="dep">217</dep>
+    <dep name="det">333</dep>
+    <dep name="discourse">489</dep>
+    <dep name="discourse:sp">346</dep>
+    <dep name="fixed">2</dep>
+    <dep name="flat">250</dep>
+    <dep name="iobj">1</dep>
+    <dep name="mark">229</dep>
+    <dep name="nmod">881</dep>
+    <dep name="nsubj">2208</dep>
+    <dep name="nsubj:outer">10</dep>
+    <dep name="nummod">474</dep>
+    <dep name="obj">1682</dep>
+    <dep name="obl">339</dep>
+    <dep name="obl:arg">270</dep>
+    <dep name="obl:lmod">53</dep>
+    <dep name="obl:tmod">430</dep>
+    <dep name="parataxis">352</dep>
+    <dep name="punct">3039</dep>
+    <dep name="reparandum">3</dep>
+    <dep name="root">2295</dep>
+    <dep name="vocative">11</dep>
+    <dep name="xcomp">5</dep>
+  </deps>
+</treebank>
