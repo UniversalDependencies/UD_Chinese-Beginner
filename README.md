@@ -1,5 +1,5 @@
 # Summary
-A treebank of Chinese sentences adapted for learner of level A1 to C1 (HSK1 to 5) collected on the [Chinese Grammar Wiki](https://resources.allsetlearning.com/chinese/grammar/\) (CC BY-NC-SA 3.0 License) website. The treebank was manually annotated by researchers of Paris Nanterre University (Modyco) in the mSUD annotation schema (morpheme level Surface Universal Dependencies).  
+A treebank of Chinese sentences adapted for learner of level A1 to C1 (HSK1 to 5) collected on the [Chinese Grammar Wiki](https://resources.allsetlearning.com/chinese/grammar/) (CC BY-NC-SA 3.0 License) website. The treebank was manually annotated by researchers of Paris Nanterre University (Modyco) in the mSUD annotation schema (morpheme level Surface Universal Dependencies).  
 
 
 # Introduction
