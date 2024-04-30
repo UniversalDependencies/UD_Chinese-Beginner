@@ -21257,8 +21257,8 @@
 2	想	想	AUX	_	_	3	aux	_	SpaceAfter=No|Tone=3|Translit=xiǎng
 3	吃	吃	VERB	_	_	0	root	_	SpaceAfter=No|Tone=1|Translit=chī
 4	那个	那个	INTJ	_	_	7	reparandum	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4_4|Translit=nà_gè
-5	⋯	⋯	PUNCT	_	_	7	punct	_	SpaceAfter=No|Translit=⋯
-6	⋯	⋯	PUNCT	_	_	7	punct	_	SpaceAfter=No|Translit=⋯
+5	⋯	⋯	PUNCT	_	_	4	punct	_	SpaceAfter=No|Translit=⋯
+6	⋯	⋯	PUNCT	_	_	4	punct	_	SpaceAfter=No|Translit=⋯
 7	那个	那个	INTJ	_	_	11	discourse	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4_4|Translit=nà_gè
 8	⋯	⋯	PUNCT	_	_	7	punct	_	SpaceAfter=No|Translit=⋯
 9	⋯	⋯	PUNCT	_	_	7	punct	_	SpaceAfter=No|Translit=⋯
@@ -21384,8 +21384,8 @@
 5	买	买	VERB	_	_	13	acl	_	SpaceAfter=No|Tone=3|Translit=mǎi
 6	的	的	PART	_	Case=Gen	5	mark	_	SpaceAfter=No|Tone=5|Translit=de
 7	那个	那个	INTJ	_	_	10	reparandum	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4_4|Translit=nà_gè
-8	⋯	⋯	PUNCT	_	_	10	punct	_	SpaceAfter=No|Translit=⋯
-9	⋯	⋯	PUNCT	_	_	10	punct	_	SpaceAfter=No|Translit=⋯
+8	⋯	⋯	PUNCT	_	_	7	punct	_	SpaceAfter=No|Translit=⋯
+9	⋯	⋯	PUNCT	_	_	7	punct	_	SpaceAfter=No|Translit=⋯
 10	那个	那个	INTJ	_	_	13	discourse	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4_4|Translit=nà_gè
 11	⋯	⋯	PUNCT	_	_	10	punct	_	SpaceAfter=No|Translit=⋯
 12	⋯	⋯	PUNCT	_	_	10	punct	_	SpaceAfter=No|Translit=⋯
@@ -21423,8 +21423,8 @@
 # text_orig = 昨天 那个 ⋯⋯ 那个 ⋯⋯ 小笼包 真 好吃。
 1	昨天	昨天	NOUN	_	_	10	obl:tmod	_	SpaceAfter=No|Tone=2_1|Translit=zuó_tiān
 2	那个	那个	INTJ	_	_	5	reparandum	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4_4|Translit=nà_gè
-3	⋯	⋯	PUNCT	_	_	5	punct	_	SpaceAfter=No|Translit=⋯
-4	⋯	⋯	PUNCT	_	_	5	punct	_	SpaceAfter=No|Translit=⋯
+3	⋯	⋯	PUNCT	_	_	2	punct	_	SpaceAfter=No|Translit=⋯
+4	⋯	⋯	PUNCT	_	_	2	punct	_	SpaceAfter=No|Translit=⋯
 5	那个	那个	INTJ	_	_	8	discourse	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4_4|Translit=nà_gè
 6	⋯	⋯	PUNCT	_	_	5	punct	_	SpaceAfter=No|Translit=⋯
 7	⋯	⋯	PUNCT	_	_	5	punct	_	SpaceAfter=No|Translit=⋯
