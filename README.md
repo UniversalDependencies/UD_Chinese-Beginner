@@ -46,6 +46,9 @@ This annotation work is supported by the [Autogramm project](https://autogramm.g
 
 # Changelog
 
+* 2024-05-15 v2.14
+  * Original annotation in mSUD (https://github.com/surfacesyntacticud/mSUD_Chinese-Beginner), see LREC-COLING 2024 paper: [Joint Annotation of Morphology and Syntax in Dependency Treebanks](https://inria.hal.science/hal-04550108)
+
 * 2023-11-15 v2.13
   * Initial release in Universal Dependencies.
 
