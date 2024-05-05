@@ -1,16 +1,16 @@
 # Summary
-A treebank of Chinese sentences adapted for learner of level A1 to C1 (HSK1 to 5) collected on the [Chinese Grammar Wiki](https://resources.allsetlearning.com/chinese/grammar/\) (CC BY-NC-SA 3.0 License) website. The treebank was manually annotated by researchers of Paris Nanterre University (Modyco) in the mSUD annotation schema (morpheme level Surface Universal Dependencies).  
+A treebank of Chinese sentences adapted for learner of level A1 to C1 (HSK1 to 5) collected on the [Chinese Grammar Wiki](https://resources.allsetlearning.com/chinese/grammar/\) (CC BY-NC-SA 3.0 License) website. The treebank was manually annotated by researchers of Paris Nanterre University (Modyco) in the mSUD annotation schema (morpheme level Surface Universal Dependencies).
 
 
 # Introduction
 The syntactic analysis is originally done in SUD on the character level under the name SUD_Chinese-PatentChar. See SUD Guidelines : https://surfacesyntacticud.github.io/guidelines/u/
 
 ## Structure of the Treebank
-The Treebank is partitioned in 5 parts A1, A2, B1, B2 and C1 that represents different level of difficulty (from easiest to hardest). 
+The Treebank is partitioned in 5 parts A1, A2, B1, B2 and C1 that represents different level of difficulty (from easiest to hardest).
 
-/!\ At the day of October 12th of 2023, 2295 sentences have been hand annotated (around 20k tokens in total). But below is the complete distribution of the corpus when it will be finished. 
+/!\ At the day of October 12th of 2023, 2295 sentences have been hand annotated (around 20k tokens in total). But below is the complete distribution of the corpus when it will be finished.
 
-The corpus is made of around 4300 sentences, with the following distribution : 
+The corpus is made of around 4300 sentences, with the following distribution :
 - A1 : 382 sentences (3456 tokens , ~ 9.05 tokens per sentences)
 - A2 : 1103 sentences (11920 tokens, ~ 10.80 tokens per sentences)
 - B1 : 1347 sentences (18236 tokens, ~ 15.54 tokens per sentences)
@@ -20,10 +20,10 @@ The corpus is made of around 4300 sentences, with the following distribution :
 ## Data Split
 The treebank is still being annotated and around 40% of the sentences are yet to be annotated or validated. Therefore, the current version is not representative of the final distribution which prevent us for doing a representative data split that would be stable across release ([see UD data split guidelines](https://universaldependencies.org/release_checklist.html#data-split)). Until the treebank is fully annotated, we will not split the data and release all sentences in a single test folder. Please perform 10 fold cross validation if you are using this treebank for any machine learning task.
 
- 
+
 
 ## Structure of a sentence
-Here an example of the meta data that each sentences contains : 
+Here an example of the meta data that each sentences contains :
 ```
 # sent_id = 1
 # structure = 没 + 有 (+ Obj.)
@@ -46,6 +46,9 @@ This annotation work is supported by the [Autogramm project](https://autogramm.g
 
 # Changelog
 
+* 2024-05-15 v2.14
+  * Original annotation in mSUD (https://github.com/surfacesyntacticud/mSUD_Chinese-Beginner), see LREC-COLING 2024 paper: [Joint Annotation of Morphology and Syntax in Dependency Treebanks](https://inria.hal.science/hal-04550108)
+
 * 2023-11-15 v2.13
   * Initial release in Universal Dependencies.
 
@@ -53,7 +56,7 @@ This annotation work is supported by the [Autogramm project](https://autogramm.g
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v2.13
-License: CC BY-NC-SA 3.0 
+License: CC BY-NC-SA 3.0
 Includes text: yes
 Genre: grammar-examples
 Lemmas: manual native
