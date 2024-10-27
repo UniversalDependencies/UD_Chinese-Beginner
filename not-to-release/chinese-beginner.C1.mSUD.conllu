@@ -1,0 +1,394 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = 4324
+# structure = Subj. + Verb + 得 + 倒 + Adj.
+# text = 说得倒容易，那你来！
+# level = C1
+# structure_verbose = Advanced usages of the contrary "dao"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGXXP6M
+# text_en = It's easy for you to just say it. You should give it a try!
+# text_orig = 说 得 倒 容易，那 你 来 ！
+1	说	说	VERB	_	_	0	root	_	SpaceAfter=No|Tone=1|Translit=shuō
+2	得	得	PART	_	_	4	case	_	SpaceAfter=No|Tone=2|Translit=dé
+3	倒	倒	ADV	_	_	4	advmod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=dǎo
+4	容易	容易	ADJ	_	_	1	obl	_	SpaceAfter=No|Tone=2_4|Translit=róng_yì
+5	，	，	PUNCT	_	_	8	punct	_	SpaceAfter=No|Translit=，
+6	那	那	PART	_	_	8	discourse	_	SpaceAfter=No|Tone=4|Translit=nà
+7	你	你	PRON	_	Person=2	8	nsubj	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
+8	来	来	VERB	_	_	1	parataxis	_	SpaceAfter=No|Tone=2|Translit=lái
+9	！	！	PUNCT	_	_	1	punct	_	SpaceAfter=No|Translit=！
+
+# sent_id = 4335
+# structure = Subj. + 很是 + Adj.
+# text = 你穿西装看起来很是精神。
+# level = C1
+# structure_verbose = Emphasizing with "henshi"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGA1B87
+# text_en = When you wear a suit, you look very smart.
+# text_orig = 你 穿 西装 看起来 很是 精神 。
+1	你	你	PRON	_	Person=2	2	nsubj	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
+2	穿	穿	VERB	_	_	0	root	_	SpaceAfter=No|Tone=1|Translit=chuān
+3	西装	西装	NOUN	_	_	2	obj	_	SpaceAfter=No|Tone=1_1|Translit=xī_zhuāng
+4	看	看	VERB	_	_	2	advcl	_	SpaceAfter=No|Tone=4|Translit=kàn
+5	起	起	VERB	_	_	4	dep	_	SpaceAfter=No|Tone=3|Translit=qǐ
+6	来	来	VERB	_	_	5	dep	_	SpaceAfter=No|Tone=2|Translit=lái
+7	很	很	ADV	_	_	9	advmod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=hěn
+8	是	是	AUX	_	_	9	cop	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=shì
+9	精神	精神	ADJ	_	_	4	ccomp	_	SpaceAfter=No|Tone=1_2|Translit=jīng_shén
+10	。	。	PUNCT	_	_	2	punct	_	SpaceAfter=No|Translit=。
+
+# sent_id = 4458
+# structure = Sentence + 呗
+# text = 别问我们为什么去KTV唱歌，热闹好玩儿呗！
+# level = C1
+# structure_verbose = Using the particle "bei"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGVBH2H
+# text_orig = 别问 我们 为什么 去 KTV 唱歌，热闹 好 玩儿 呗！
+1	别	别	VERB	_	_	0	root	_	SpaceAfter=No|Tone=2|Translit=bié
+2	问	问	VERB	_	_	1	ccomp	_	SpaceAfter=No|Tone=4|Translit=wèn
+3	我们	我们	PRON	_	Number=Plur|Person=1	5	nsubj	_	Gloss=1SG|SpaceAfter=No|Tone=3_5|Translit=wǒ_men
+4	为什么	为什么	PRON	_	PronType=Int	5	obl	_	SpaceAfter=No|Tone=4_2_5|Translit=wèi_shén_me
+5	去	去	VERB	_	_	2	ccomp	_	SpaceAfter=No|Tone=4|Translit=qù
+6	KTV	ktv	PROPN	_	_	5	obj	_	SpaceAfter=No|Translit=K_T_V
+7	唱	唱	VERB	_	_	5	compound:svc	_	SpaceAfter=No|Tone=4|Translit=chàng
+8	歌	歌	NOUN	_	_	7	obj	_	SpaceAfter=No|Tone=1|Translit=gē
+9	，	，	PUNCT	_	_	10	punct	_	SpaceAfter=No|Translit=，
+10	热闹	热闹	ADJ	_	_	1	parataxis	_	SpaceAfter=No|Tone=4_4|Translit=rè_nào
+11	好	好	ADV	_	_	12	advmod	_	Gloss=good|SpaceAfter=No|Tone=3|Translit=hǎo
+12	玩儿	玩儿	VERB	_	_	10	conj	_	SpaceAfter=No|Tone=2_2|Translit=wán_ér
+13	呗	呗	PART	_	_	10	discourse	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=bài
+14	！	！	PUNCT	_	_	1	punct	_	SpaceAfter=No|Translit=！
+
+# sent_id = 4333
+# structure = Subj. + 很是 + Adj.
+# text = 这样做很是必要。
+# level = C1
+# structure_verbose = Emphasizing with "henshi"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGA1B87
+# text_en = Doing it this way is very necessary.
+# text_orig = 这样做 很是 必要 。
+1	这	这	DET	_	_	2	det	_	Gloss=DEM.PROX|SpaceAfter=No|Tone=4|Translit=zhè
+2	样	样	NOUN	_	_	3	nmod	_	Gloss=manner|SpaceAfter=No|Tone=2|Translit=yáng
+3	做	做	NOUN	_	_	6	nsubj	_	Gloss=do|SpaceAfter=No|Tone=4|Translit=zuò
+4	很	很	ADV	_	_	6	advmod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=hěn
+5	是	是	AUX	_	_	6	cop	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=shì
+6	必要	必要	ADJ	_	_	0	root	_	SpaceAfter=No|Tone=4_4|Translit=bì_yào
+7	。	。	PUNCT	_	_	6	punct	_	SpaceAfter=No|Translit=。
+
+# sent_id = 4334
+# structure = Subj. + 很是 + Adj.
+# text = 你的工作表现让领导很是满意。
+# level = C1
+# structure_verbose = Emphasizing with "henshi"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGA1B87
+# text_en = Your performance at work has made the leader very satisfied.
+# text_orig = 你 的 工作 表现 让 领导 很是 满意 。
+1	你	你	PRON	_	Person=2	4	nmod	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
+2	的	的	PART	_	Case=Gen	1	case	_	SpaceAfter=No|Tone=5|Translit=de
+3	工作	工作	NOUN	_	_	4	nmod	_	SpaceAfter=No|Tone=1_4|Translit=gōng_zuò
+4	表现	表现	NOUN	_	_	5	nsubj	_	SpaceAfter=No|Tone=3_4|Translit=biǎo_xiàn
+5	让	让	VERB	_	_	0	root	_	SpaceAfter=No|Tone=4|Translit=ràng
+6	领导	领导	VERB	_	_	9	csubj	_	SpaceAfter=No|Tone=3_3|Translit=lǐng_dǎo
+7	很	很	ADV	_	_	9	advmod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=hěn
+8	是	是	AUX	_	_	9	cop	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=shì
+9	满意	满意	ADJ	_	_	5	ccomp	_	SpaceAfter=No|Tone=3_4|Translit=mǎn_yì
+10	。	。	PUNCT	_	_	5	punct	_	SpaceAfter=No|Translit=。
+
+# sent_id = 4364
+# structure = Subj. + 果然 + Predicate
+# text = 你说得没错！他果然是个骗子！
+# level = C1
+# structure_verbose = Expressing "as expected" with "guoran"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGC11D0
+# text_en = You were right. He's absolutely a liar!
+# text_orig = 你 说 得 没错 ！他 果然 是 个 骗子 ！
+1	你	你	PRON	_	Person=2	2	nsubj	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
+2	说	说	VERB	_	_	0	root	_	SpaceAfter=No|Tone=1|Translit=shuō
+3	得	得	PART	_	_	5	case	_	SpaceAfter=No|Tone=2|Translit=dé
+4	没	没	ADV	_	Polarity=Neg	5	advmod	_	Gloss=NEG|SpaceAfter=No|Tone=2|Translit=méi
+5	错	错	ADJ	_	_	2	obl	_	SpaceAfter=No|Tone=4|Translit=cuò
+6	！	！	PUNCT	_	_	2	punct	_	SpaceAfter=No|Translit=！
+7	他	他	PRON	_	Person=3	11	nsubj	_	SpaceAfter=No|Tone=1|Translit=tā
+8	果然	果然	ADV	_	_	11	advmod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3_2|Translit=guǒ_rán
+9	是	是	AUX	_	_	11	cop	_	SpaceAfter=No|Tone=4|Translit=shì
+10	个	个	NOUN	_	_	11	clf	_	Gloss=CLF|SpaceAfter=No|Tone=4|Translit=gè
+11	骗子	骗子	NOUN	_	_	2	flat	_	SpaceAfter=No|Tone=4_5|Translit=piàn_zi
+12	！	！	PUNCT	_	_	11	punct	_	SpaceAfter=No|Translit=！
+
+# sent_id = 4392
+# structure = 无非 + 是 + Noun Phrase
+# text = 他无非是个经理，没什么了不起的。
+# level = C1
+# structure_verbose = Expressing "nothing but" with "wufei"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGW0911
+# text_orig = 他 无非 是 个 经理，没 什么 了不起 的。
+1	他	他	PRON	_	Person=3	5	nsubj	_	SpaceAfter=No|Tone=1|Translit=tā
+2	无非	无非	ADV	_	_	5	advmod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2_1|Translit=wú_fēi
+3	是	是	AUX	_	_	5	cop	_	SpaceAfter=No|Tone=4|Translit=shì
+4	个	个	NOUN	_	_	5	clf	_	Gloss=CLF|SpaceAfter=No|Tone=4|Translit=gè
+5	经理	经理	NOUN	_	_	0	root	_	SpaceAfter=No|Tone=1_3|Translit=jīng_lǐ
+6	，	，	PUNCT	_	_	7	punct	_	SpaceAfter=No|Translit=，
+7	没	没	VERB	_	_	5	parataxis	_	Gloss=NEG|SpaceAfter=No|Tone=2|Translit=méi
+8	什么	什么	PRON	_	_	7	obj	_	SpaceAfter=No|Tone=2_5|Translit=shén_me
+9	了	了	VERB	_	_	8	acl	_	CpdPos=ADJ|SpaceAfter=No|Tone=5|Translit=le
+10	不	不	ADV	_	Polarity=Neg	11	advmod	_	Gloss=NEG|SpaceAfter=No|Tone=4|Translit=bù
+11	起	起	VERB	_	_	9	ccomp	_	SpaceAfter=No|Tone=3|Translit=qǐ
+12	的	的	PART	_	_	9	mark	_	SpaceAfter=No|Tone=5|Translit=de
+13	。	。	PUNCT	_	_	5	punct	_	SpaceAfter=No|Translit=。
+
+# sent_id = 4393
+# structure = 无非 + 是 + Noun Phrase
+# text = 招待中国客人最好的饮料无非是一杯热茶而已。
+# level = C1
+# structure_verbose = Expressing "nothing but" with "wufei"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGW0911
+# text_orig = 招待 中国 客人 最 好 的 饮料 无非 是 一 杯 热 茶 而已。
+1	招待	招待	VERB	_	_	7	acl	_	SpaceAfter=No|Tone=1_4|Translit=zhāo_dài
+2	中国	中国	PROPN	_	_	3	nmod	_	SpaceAfter=No|Tone=1_2|Translit=zhōng_guó
+3	客人	客人	NOUN	_	_	1	obj	_	SpaceAfter=No|Tone=4_2|Translit=kè_rén
+4	最	最	ADV	_	_	5	advmod	_	SpaceAfter=No|Tone=4|Translit=zùi
+5	好	好	ADJ	_	_	7	nmod	_	Gloss=good|SpaceAfter=No|Tone=3|Translit=hǎo
+6	的	的	PART	_	Case=Gen	5	case	_	SpaceAfter=No|Tone=5|Translit=de
+7	饮料	饮料	NOUN	_	_	13	nsubj	_	SpaceAfter=No|Tone=3_4|Translit=yǐn_liào
+8	无非	无非	ADV	_	_	13	advmod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2_1|Translit=wú_fēi
+9	是	是	AUX	_	_	13	cop	_	SpaceAfter=No|Tone=4|Translit=shì
+10	一	一	NUM	_	NumType=Card	11	nummod	_	Gloss=one|SpaceAfter=No|Tone=1|Translit=yī
+11	杯	杯	NOUN	_	_	13	clf	_	Gloss=CLF|SpaceAfter=No|Tone=1|Translit=bēi
+12	热	热	ADJ	_	_	13	amod	_	SpaceAfter=No|Tone=4|Translit=rè
+13	茶	茶	NOUN	_	_	0	root	_	SpaceAfter=No|Tone=2|Translit=chá
+14	而已	而已	ADV	_	_	13	advmod	_	SpaceAfter=No|Tone=2_3|Translit=ér_yǐ
+15	。	。	PUNCT	_	_	13	punct	_	SpaceAfter=No|Translit=。
+
+# sent_id = 4395
+# structure = 无非 + 是 + Noun Phrase
+# text = 孩子想得到的无非是你的关心罢了。
+# level = C1
+# structure_verbose = Expressing "nothing but" with "wufei"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGW0911
+# text_orig = 孩子 想 得到 的 无非 是 你 的 关心 罢了。
+1	孩子	孩子	NOUN	_	_	2	nsubj	_	SpaceAfter=No|Tone=2_5|Translit=hái_zi
+2	想	想	AUX	_	_	9	csubj	_	SpaceAfter=No|Tone=3|Translit=xiǎng
+3	得到	得到	VERB	_	_	2	ccomp	_	SpaceAfter=No|Tone=2_4|Translit=dé_dào
+4	的	的	PART	_	Case=Gen	2	mark	_	SpaceAfter=No|Tone=5|Translit=de
+5	无非	无非	ADV	_	_	9	advmod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2_1|Translit=wú_fēi
+6	是	是	AUX	_	_	9	cop	_	SpaceAfter=No|Tone=4|Translit=shì
+7	你	你	PRON	_	Person=2	9	nmod	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
+8	的	的	PART	_	Case=Gen	7	case	_	SpaceAfter=No|Tone=5|Translit=de
+9	关心	关心	NOUN	_	_	0	root	_	SpaceAfter=No|Tone=1_1|Translit=guān_xīn
+10	罢了	罢了	PART	_	_	9	discourse	_	SpaceAfter=No|Tone=4_5|Translit=bà_le
+11	。	。	PUNCT	_	_	9	punct	_	SpaceAfter=No|Translit=。
+
+# sent_id = 4415
+# structure = Sentence + 来着
+# text = 那首歌是谁唱的来着？
+# level = C1
+# structure_verbose = Expressing that something has already happened with "laizhe"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGPV5Z2
+# text_en = Who sang that song again?
+# text_orig = 那 首 歌 是 谁 唱 的 来着 ？
+1	那	那	DET	_	_	2	det	_	Gloss=DEM.DIST|SpaceAfter=No|Tone=4|Translit=nà
+2	首	首	NOUN	_	_	3	clf	_	Gloss=CLF|SpaceAfter=No|Tone=3|Translit=shǒu
+3	歌	歌	NOUN	_	_	6	nsubj:outer	_	SpaceAfter=No|Tone=1|Translit=gē
+4	是	是	AUX	_	_	6	cop	_	SpaceAfter=No|Tone=4|Translit=shì
+5	谁	谁	PRON	_	PronType=Int	6	nsubj	_	SpaceAfter=No|Tone=2|Translit=shúi
+6	唱	唱	VERB	_	_	0	root	_	SpaceAfter=No|Tone=4|Translit=chàng
+7	的	的	PART	_	Case=Gen	6	mark	_	SpaceAfter=No|Tone=5|Translit=de
+8	来着	来着	PART	_	_	6	discourse	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2_2|Translit=lái_zháo
+9	？	？	PUNCT	_	_	6	punct	_	SpaceAfter=No|Translit=？
+
+# sent_id = 4418
+# structure = [Noun Phrase 1]，[Noun Phrase 2] + 以及 + [Noun Phrase 3]
+# text = 艺术有很多种类，绘画、舞蹈、电影以及文学等都是艺术。
+# level = C1
+# structure_verbose = Expressing "as well as" with "yiji"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGCC713
+# text_en = .
+# text_orig = 艺术 有 很多 种类 ，绘画 、舞蹈 、电影 以及 文学 等 都 是 艺术 。
+1	艺术	艺术	NOUN	_	_	2	nsubj	_	SpaceAfter=No|Tone=4_2|Translit=yì_zhú
+2	有	有	VERB	_	_	0	root	_	SpaceAfter=No|Tone=3|Translit=yǒu
+3	很	很	ADV	_	_	4	advmod	_	SpaceAfter=No|Tone=3|Translit=hěn
+4	多	多	ADJ	_	_	6	amod	_	SpaceAfter=No|Tone=1|Translit=duō
+5	种	种	NOUN	_	_	6	clf	_	Gloss=CLF|SpaceAfter=No|Tone=3|Translit=zhǒng
+6	类	类	NOUN	_	_	2	obj	_	SpaceAfter=No|Tone=4|Translit=lèi
+7	，	，	PUNCT	_	_	2	punct	_	SpaceAfter=No|Translit=，
+8	绘画	绘画	NOUN	_	_	18	nsubj	_	SpaceAfter=No|Tone=4_4|Translit=hùi_huà
+9	、	、	PUNCT	_	_	10	punct	_	SpaceAfter=No|Translit=、
+10	舞蹈	舞蹈	NOUN	_	_	8	conj	_	SpaceAfter=No|Tone=3_3|Translit=wǔ_dǎo
+11	、	、	PUNCT	_	_	12	punct	_	SpaceAfter=No|Translit=、
+12	电影	电影	NOUN	_	_	8	conj	_	SpaceAfter=No|Tone=4_3|Translit=diàn_yǐng
+13	以及	以及	CCONJ	_	_	14	cc	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3_2|Translit=yǐ_jí
+14	文学	文学	NOUN	_	_	8	conj	_	SpaceAfter=No|Tone=2_2|Translit=wén_xué
+15	等	等	PART	_	_	14	cc	_	SpaceAfter=No|Tone=3|Translit=děng
+16	都	都	ADV	_	_	18	advmod	_	SpaceAfter=No|Tone=1|Translit=dū
+17	是	是	AUX	_	_	18	cop	_	SpaceAfter=No|Tone=4|Translit=shì
+18	艺术	艺术	NOUN	_	_	2	flat	_	SpaceAfter=No|Tone=4_2|Translit=yì_zhú
+19	。	。	PUNCT	_	_	18	punct	_	SpaceAfter=No|Translit=。
+
+# sent_id = 4420
+# structure = [Noun Phrase 1]，[Noun Phrase 2] + 以及 + [Noun Phrase 3]
+# text = 我们的价值就是采访、分析以及组合投资管理人。
+# level = C1
+# structure_verbose = Expressing "as well as" with "yiji"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGCC713
+# text_en = Our value lies in conducting interviews, analysis, as well as synthesizing and managing investment portfolios.
+# translit = Wǒmen de jiàzhí jiùshì cǎifǎng, fēnxī yǐjí zǔhé tóuzī guǎnlǐ rén.
+# text_orig = 我们 的 价值 就是 采访、分析 以及 组合 投资 管理 人 。
+1	我们	我们	PRON	_	Number=Plur|Person=1	3	nmod	_	Gloss=1SG|SpaceAfter=No|Tone=3_5|Translit=wǒ_men
+2	的	的	PART	_	Case=Gen	1	case	_	SpaceAfter=No|Tone=5|Translit=de
+3	价值	价值	NOUN	_	_	6	nsubj	_	SpaceAfter=No|Tone=4_2|Translit=jià_zhí
+4	就	就	ADV	_	_	6	advmod	_	SpaceAfter=No|Tone=4|Translit=jìu
+5	是	是	AUX	_	_	6	cop	_	SpaceAfter=No|Tone=4|Translit=shì
+6	采访	采访	VERB	_	_	0	root	_	SpaceAfter=No|Tone=3_3|Translit=cǎi_fǎng
+7	、	、	PUNCT	_	_	8	punct	_	SpaceAfter=No|Translit=、
+8	分析	分析	VERB	_	_	6	conj	_	SpaceAfter=No|Tone=1_1|Translit=fēn_xī
+9	以及	以及	CCONJ	_	_	10	cc	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3_2|Translit=yǐ_jí
+10	组合	组合	VERB	_	_	6	conj	_	SpaceAfter=No|Tone=3_2|Translit=zǔ_hé
+11	投资	投资	VERB	_	_	13	acl	_	SpaceAfter=No|Tone=2_1|Translit=tóu_zī
+12	管理	管理	VERB	_	_	13	acl	_	SpaceAfter=No|Tone=3_3|Translit=guǎn_lǐ
+13	人	人	NOUN	_	_	6	obj	_	SpaceAfter=No|Tone=2|Translit=rén
+14	。	。	PUNCT	_	_	6	punct	_	SpaceAfter=No|Translit=。
+
+# sent_id = 4422
+# structure = [Noun Phrase 1]，[Noun Phrase 2] + 以及 + [Noun Phrase 3]
+# text = 这个项目的投资人以及相关负责人都是外国人。
+# level = C1
+# structure_verbose = Expressing "as well as" with "yiji"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGCC713
+# text_en = The investors and responsible parties involved in this project are all foreigners.
+# translit = Zhè gè xiàngmù de tóuzī rén yǐjí xiāngguān fùzé rén dōu shì wàiguó rén.
+# text_orig = 这个 项目 的 投资人 以及 相关 负责 人 都 是 外国 人 。
+1	这	这	DET	_	_	2	det	_	Gloss=DEM.PROX|SpaceAfter=No|Tone=4|Translit=zhè
+2	个	个	NOUN	_	_	3	clf	_	Gloss=CLF|SpaceAfter=No|Tone=4|Translit=gè
+3	项目	项目	NOUN	_	_	6	nmod	_	SpaceAfter=No|Tone=4_4|Translit=xiàng_mù
+4	的	的	PART	_	Case=Gen	3	case	_	SpaceAfter=No|Tone=5|Translit=de
+5	投资	投资	NOUN	_	_	6	nmod	_	SpaceAfter=No|Tone=2_1|Translit=tóu_zī
+6	人	人	NOUN	_	_	13	nsubj	_	SpaceAfter=No|Tone=2|Translit=rén
+7	以及	以及	CCONJ	_	_	10	cc	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3_2|Translit=yǐ_jí
+8	相关	相关	ADJ	_	_	10	amod	_	SpaceAfter=No|Tone=1_1|Translit=xiāng_guān
+9	负责	负责	VERB	_	_	10	acl	_	SpaceAfter=No|Tone=4_2|Translit=fù_zé
+10	人	人	NOUN	_	_	6	conj	_	SpaceAfter=No|Tone=2|Translit=rén
+11	都	都	ADV	_	_	13	advmod	_	SpaceAfter=No|Tone=1|Translit=dū
+12	是	是	AUX	_	_	13	cop	_	SpaceAfter=No|Tone=4|Translit=shì
+13	外国人	外国人	NOUN	_	_	0	root	_	SpaceAfter=No|Tone=4_2_2|Translit=wài_guó_rén
+14	。	。	PUNCT	_	_	13	punct	_	SpaceAfter=No|Translit=。
+
+# sent_id = 4424
+# structure = （⋯⋯ ，）总之 ，⋯⋯
+# text = 不管他的理由是什么，总之，我不会再相信他了。
+# level = C1
+# structure_verbose = Expressing "in short" with "zongzhi"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGF561D
+# text_en = .
+# text_orig = 不管 他 的 理由 是 什么 ，总之 ，我 不会 再 相信 他 了 。
+1	不	不	ADV	_	Polarity=Neg	2	advmod	_	Gloss=NEG|SpaceAfter=No|Tone=4|Translit=bù
+2	管	管	VERB	_	_	0	root	_	SpaceAfter=No|Tone=3|Translit=guǎn
+3	他	他	PRON	_	Person=3	5	nmod	_	SpaceAfter=No|Tone=1|Translit=tā
+4	的	的	PART	_	Case=Gen	3	case	_	SpaceAfter=No|Tone=5|Translit=de
+5	理由	理由	NOUN	_	_	7	nsubj	_	SpaceAfter=No|Tone=3_2|Translit=lǐ_yóu
+6	是	是	AUX	_	_	7	cop	_	SpaceAfter=No|Tone=4|Translit=shì
+7	什么	什么	PRON	_	PronType=Int	2	ccomp	_	SpaceAfter=No|Tone=2_5|Translit=shén_me
+8	，	，	PUNCT	_	_	15	punct	_	SpaceAfter=No|Translit=，
+9	总之	总之	SCONJ	_	_	15	cc	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3_1|Translit=zǒng_zhī
+10	，	，	PUNCT	_	_	15	punct	_	SpaceAfter=No|Translit=，
+11	我	我	PRON	_	Person=1	15	nsubj	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
+12	不	不	ADV	_	Polarity=Neg	15	advmod	_	Gloss=NEG|SpaceAfter=No|Tone=4|Translit=bù
+13	会	会	AUX	_	_	15	aux	_	SpaceAfter=No|Tone=4|Translit=hùi
+14	再	再	ADV	_	_	15	advmod	_	SpaceAfter=No|Tone=4|Translit=zài
+15	相信	相信	VERB	_	_	2	parataxis	_	SpaceAfter=No|Tone=1_4|Translit=xiāng_xìn
+16	他	他	PRON	_	Person=3	15	obj	_	SpaceAfter=No|Tone=1|Translit=tā
+17	了	了	PART	_	_	15	discourse	_	Gloss=PRF|SpaceAfter=No|Tone=5|Translit=le
+18	。	。	PUNCT	_	_	2	punct	_	SpaceAfter=No|Translit=。
+
+# sent_id = 4425
+# structure = （⋯⋯ ，）总之 ，⋯⋯
+# text = 总之，我们这么做都是为了孩子好。
+# level = C1
+# structure_verbose = Expressing "in short" with "zongzhi"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGF561D
+# text_en = .
+# text_orig = 总之 ，我们 这么 做 都是 为了 孩子 好 。
+1	总之	总之	ADV	_	_	7	advmod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3_1|Translit=zǒng_zhī
+2	，	，	PUNCT	_	_	1	punct	_	SpaceAfter=No|Translit=，
+3	我们	我们	PRON	_	Number=Plur|Person=1	5	nsubj	_	Gloss=1SG|SpaceAfter=No|Tone=3_5|Translit=wǒ_men
+4	这么	这么	ADV	_	_	5	advmod	_	SpaceAfter=No|Tone=4_5|Translit=zhè_me
+5	做	做	VERB	_	_	7	csubj	_	Gloss=do|SpaceAfter=No|Tone=4|Translit=zuò
+6	都	都	ADV	_	_	7	advmod	_	SpaceAfter=No|Tone=1|Translit=dū
+7	是	是	VERB	_	_	0	root	_	SpaceAfter=No|Tone=4|Translit=shì
+8	为了	为了	ADP	_	_	10	case	_	SpaceAfter=No|Tone=4_5|Translit=wèi_le
+9	孩子	孩子	NOUN	_	_	10	nsubj	_	SpaceAfter=No|Tone=2_5|Translit=hái_zi
+10	好	好	ADJ	_	_	7	dep	_	Gloss=good|SpaceAfter=No|Tone=3|Translit=hǎo
+11	。	。	PUNCT	_	_	7	punct	_	SpaceAfter=No|Translit=。
+
+# sent_id = 4441
+# structure = 本 + Noun
+# text = 顾客至上是本公司的经营理念。
+# level = C1
+# structure_verbose = Expressing "your side" with "ben"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGH4A7W
+# text_en = .
+# translit = běn.
+# text_orig = 顾客至上 是 本 公司 的 经营 理念。
+1	顾客	顾客	NOUN	_	_	8	nsubj	_	SpaceAfter=No|Tone=4_4|Translit=gù_kè
+2	至上	至上	ADJ	_	_	1	amod	_	SpaceAfter=No|Tone=4_4|Translit=zhì_shàng
+3	是	是	AUX	_	_	8	cop	_	SpaceAfter=No|Tone=4|Translit=shì
+4	本	本	DET	_	_	5	dep	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=běn
+5	公司	公司	NOUN	_	_	8	nmod	_	SpaceAfter=No|Tone=1_1|Translit=gōng_sī
+6	的	的	PART	_	Case=Gen	5	case	_	SpaceAfter=No|Tone=5|Translit=de
+7	经营	经营	NOUN	_	_	8	nmod	_	SpaceAfter=No|Tone=1_2|Translit=jīng_yíng
+8	理念	理念	NOUN	_	_	0	root	_	SpaceAfter=No|Tone=3_4|Translit=lǐ_niàn
+9	。	。	PUNCT	_	_	8	punct	_	SpaceAfter=No|Translit=。
+
+# sent_id = 4444
+# structure = Word + 性
+# text = 你知道管理的科学性和艺术性是指什么吗？
+# level = C1
+# structure_verbose = Indicating a characteristic with "xing"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGDZIO0
+# text_orig = 你 知道 管理 的 科学 性 和 艺术 性 是 指 什么 吗？
+1	你	你	PRON	_	Person=2	2	nsubj	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
+2	知道	知道	VERB	_	_	0	root	_	SpaceAfter=No|Tone=1_4|Translit=zhī_dào
+3	管理	管理	NOUN	_	_	6	nmod	_	SpaceAfter=No|Tone=3_3|Translit=guǎn_lǐ
+4	的	的	PART	_	Case=Gen	3	case	_	SpaceAfter=No|Tone=5|Translit=de
+5	科学	科学	NOUN	_	_	6	nmod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=1_2|Translit=kē_xué
+6	性	性	NOUN	_	_	11	nsubj	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=xìng
+7	和	和	CCONJ	_	_	9	cc	_	SpaceAfter=No|Tone=2|Translit=hé
+8	艺术	艺术	NOUN	_	_	9	nmod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4_2|Translit=yì_zhú
+9	性	性	NOUN	_	_	6	conj	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=xìng
+10	是	是	AUX	_	_	11	cop	_	SpaceAfter=No|Tone=4|Translit=shì
+11	指	指	VERB	_	_	2	ccomp	_	SpaceAfter=No|Tone=3|Translit=zhǐ
+12	什么	什么	PRON	_	PronType=Int	11	obj	_	SpaceAfter=No|Tone=2_5|Translit=shén_me
+13	吗	吗	PART	_	_	2	discourse:sp	_	SpaceAfter=No|Tone=5|Translit=ma
+14	？	？	PUNCT	_	_	2	punct	_	SpaceAfter=No|Translit=？
+
+# sent_id = 4450
+# structure = 是否 + Verb / Adj.
+# text = 你父母是否同意你们住在一起？
+# level = C1
+# structure_verbose = Expressing "is or is not" with "shifou"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASGNLGGX
+# text_orig = 你 父母 是否 同意 你们 住 在 一起？
+1	你	你	PRON	_	Person=2	2	nmod	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
+2	父母	父母	NOUN	_	_	4	nsubj	_	SpaceAfter=No|Tone=4_3|Translit=fù_mǔ
+3	是否	是否	PRON	_	_	4	obl	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4_3|Translit=shì_fǒu
+4	同意	同意	VERB	_	_	0	root	_	SpaceAfter=No|Tone=2_4|Translit=tóng_yì
+5	你们	你们	PRON	_	Number=Plur|Person=2	6	nsubj	_	Gloss=2SG|SpaceAfter=No|Tone=3_5|Translit=nǐ_men
+6	住	住	VERB	_	_	4	ccomp	_	SpaceAfter=No|Tone=4|Translit=zhù
+7	在一起	在一起	ADV	_	_	6	obl:arg	_	Gloss=at;on;in|SpaceAfter=No|Tone=4_1_3|Translit=zài_yī_qǐ
+8	？	？	PUNCT	_	_	4	punct	_	SpaceAfter=No|Translit=？
+
+# sent_id = 4476
+# structure = 岂不是 + rhetorical question
+# text = 你这样做岂不是给自己找麻烦？
+# level = C1
+# structure_verbose = "Could it be that" with "qibushi"
+# url = https://resources.allsetlearning.com/chinese/grammar/ASG5HZG6
+# text_orig = 你 这样 做 岂不是 给 自己 找 麻烦？
+1	你	你	PRON	_	Person=2	3	nsubj	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
+2	这样	这样	ADV	_	_	3	advmod	_	Gloss=manner|SpaceAfter=No|Tone=4_2|Translit=zhè_yáng
+3	做	做	VERB	_	_	4	csubj	_	Gloss=do|SpaceAfter=No|Tone=4|Translit=zuò
+4	岂不是	岂不是	VERB	_	_	0	root	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3_4_4|Translit=qǐ_bù_shì
+5	给	给	ADP	_	_	6	case	_	SpaceAfter=No|Tone=3|Translit=gěi
+6	自己	自己	PRON	_	_	7	obl:arg	_	SpaceAfter=No|Tone=4_3|Translit=zì_jǐ
+7	找	找	VERB	_	_	4	ccomp	_	SpaceAfter=No|Tone=3|Translit=zhǎo
+8	麻烦	麻烦	NOUN	_	_	7	obj	_	SpaceAfter=No|Tone=2_2|Translit=má_fán
+9	？	？	PUNCT	_	_	4	punct	_	SpaceAfter=No|Translit=？
+
