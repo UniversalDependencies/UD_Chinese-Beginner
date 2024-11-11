@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Chinese-Beginner:
-commit 6436ae4451c78f2148a5ea2b5b905ac657870000
-Merge: 4824061 c160953
+commit 6a55ad7564a3fb3be7fc8f2114126d0d06fbe998
+Merge: 3067822 24a3c36
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 19999 of 19999 words (nodes).
 Size: min(0, log((N/1000)**2)) = 5.9913645446079.
@@ -25,6 +25,18 @@ Udapi: found 6078 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 19999 words.
 Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang zh --max-err=10 UD_Chinese-Beginner/zh_beginner-ud-test.conllu
+[Line 161 Sent 10 Node 2]: [L3 Warning leaf-clf] 'clf' not expected to have children (2:个:clf --> 1:这:det)
+[Line 544 Sent 33 Node 5]: [L3 Warning leaf-clf] 'clf' not expected to have children (5:个:clf --> 4:一:nummod)
+[Line 661 Sent 40 Node 5]: [L3 Warning leaf-clf] 'clf' not expected to have children (5:个:clf --> 4:这:det)
+[Line 739 Sent 45 Node 2]: [L3 Warning leaf-clf] 'clf' not expected to have children (2:种:clf --> 1:这:det)
+[Line 757 Sent 46 Node 2]: [L3 Warning leaf-clf] 'clf' not expected to have children (2:个:clf --> 1:这:det)
+[Line 814 Sent 49 Node 2]: [L3 Warning leaf-clf] 'clf' not expected to have children (2:个:clf --> 1:这:det)
+[Line 833 Sent 50 Node 4]: [L3 Warning leaf-clf] 'clf' not expected to have children (4:个:clf --> 3:这:det)
+[Line 1234 Sent 76 Node 2]: [L3 Warning leaf-clf] 'clf' not expected to have children (2:个:clf --> 1:一:nummod)
+[Line 1247 Sent 77 Node 2]: [L3 Warning leaf-clf] 'clf' not expected to have children (2:个:clf --> 1:四:nummod)
+[Line 1260 Sent 78 Node 2]: [L3 Warning leaf-clf] 'clf' not expected to have children (2:个:clf --> 1:三:nummod)
+...suppressing further errors regarding Warning
+Warnings: 522
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.3) = 0.0230769230769231
