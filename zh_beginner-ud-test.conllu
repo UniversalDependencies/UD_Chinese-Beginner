@@ -121,7 +121,7 @@
 # structure_verbose = Negation of "you" with "mei"
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGPNV3Q
 # text_en = My teacher doesn't have a boyfriend now.
-# translit =  Wǒ de lǎoshī xiànzài méiyǒu nánpéngyou.
+# translit = Wǒ de lǎoshī xiànzài méiyǒu nánpéngyou.
 # text_orig = 我 的 老师 现在 没有 男朋友。
 1	我	我	PRON	_	Person=1	3	nmod	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
 2	的	的	PART	_	Case=Gen	1	case	_	SpaceAfter=No|Tone=5|Translit=de
@@ -223,7 +223,7 @@
 # structure_verbose = Standard negation with "bu"
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGIPYFV
 # text_en = Do you not like me?
-# translit =  Nǐ bù xǐhuan  wǒ ma?
+# translit = Nǐ bù xǐhuan  wǒ ma?
 # text_orig = 你 不 喜欢 我 吗？
 1	你	你	PRON	_	Person=2	3	nsubj	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
 2	不	不	ADV	_	Polarity=Neg	3	advmod	_	Gloss=NEG|Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=bù
@@ -430,7 +430,7 @@
 # structure_verbose = The "all" adverb "dou"
 # url = https://resources.allsetlearning.com/chinese/grammar/ASG9YK09
 # text_en = Are your father and your mother both Americans?
-# translit =  Nǐ bàba hé nǐ māma dōu shì Měiguó rén ma?
+# translit = Nǐ bàba hé nǐ māma dōu shì Měiguó rén ma?
 # text_orig = 你 爸爸 和 你 妈妈 都 是 美国人 吗？
 1	你	你	PRON	_	Person=2	2	nmod	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
 2	爸爸	爸爸	NOUN	_	_	8	nsubj	_	SpaceAfter=No|Tone=4_4|Translit=bà_bà
@@ -488,7 +488,7 @@
 # structure_verbose = The "all" adverb "dou"
 # url = https://resources.allsetlearning.com/chinese/grammar/ASG9YK09
 # text_en = Neither she nor her husband has a job.
-# translit =  Tā hé tā lǎogōng dōu  méiyǒu gōngzuò.
+# translit = Tā hé tā lǎogōng dōu  méiyǒu gōngzuò.
 # text_orig = 她 和 她 老公 都 没有 工作。
 1	她	她	PRON	_	Person=3	7	nsubj	_	SpaceAfter=No|Tone=1|Translit=tā
 2	和	和	CCONJ	_	_	4	cc	_	SpaceAfter=No|Tone=2|Translit=hé
@@ -507,7 +507,7 @@
 # structure_verbose = The "also" adverb "ye"
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGG25MD
 # text_en = I also like it.
-# translit =  Wǒ yě xǐhuan.
+# translit = Wǒ yě xǐhuan.
 # text_orig = 我 也 喜欢。
 1	我	我	PRON	_	Person=1	3	nsubj	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
 2	也	也	ADV	_	_	3	advmod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=yě
@@ -521,7 +521,7 @@
 # structure_verbose = The "also" adverb "ye"
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGG25MD
 # text_en = I am a student too.
-# translit =  Wǒ yě shì xuésheng.
+# translit = Wǒ yě shì xuésheng.
 # text_orig = 我 也 是 学生 。
 1	我	我	PRON	_	Person=1	4	nsubj	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
 2	也	也	ADV	_	_	4	advmod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=yě
@@ -536,7 +536,7 @@
 # structure_verbose = The "also" adverb "ye"
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGG25MD
 # text_en = She also has a son.
-# translit =  Tā yě yǒu yī gè érzi.
+# translit = Tā yě yǒu yī gè érzi.
 # text_orig = 她 也 有 一个 儿子。
 1	她	她	PRON	_	Person=3	3	nsubj	_	SpaceAfter=No|Tone=1|Translit=tā
 2	也	也	ADV	_	_	3	advmod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=yě
@@ -618,7 +618,7 @@
 # structure_verbose = The "also" adverb "ye"
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGG25MD
 # text_en = Can kids drink alcohol too?
-# translit =  Háizi yě  kěyǐ hējiǔ ma?
+# translit = Háizi yě  kěyǐ hējiǔ ma?
 # text_orig = 孩子 也 可以 喝酒 吗？
 1	孩子	孩子	NOUN	_	_	4	nsubj	_	SpaceAfter=No|Tone=2_5|Translit=hái_zi
 2	也	也	ADV	_	_	4	advmod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=yě
@@ -653,7 +653,7 @@
 # structure_verbose = The "also" adverb "ye"
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGG25MD
 # text_en = She also thinks this teacher isn't good.
-# translit =  Tā yě juéde zhège lǎoshī bù hǎo.
+# translit = Tā yě juéde zhège lǎoshī bù hǎo.
 # text_orig = 她 也 觉得 这 个 老师 不 好。
 1	她	她	PRON	_	Person=3	3	nsubj	_	SpaceAfter=No|Tone=1|Translit=tā
 2	也	也	ADV	_	_	3	advmod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=yě
@@ -687,7 +687,7 @@
 # structure_verbose = The "also" adverb "ye"
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGG25MD
 # text_en = He is also fat.
-# translit =  Tā yě hěn  pàng.
+# translit = Tā yě hěn  pàng.
 # text_orig = 他 也 很 胖。
 1	他	他	PRON	_	Person=3	4	nsubj	_	SpaceAfter=No|Tone=1|Translit=tā
 2	也	也	ADV	_	_	4	advmod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=yě
@@ -752,7 +752,7 @@
 # structure_verbose = The "also" adverb "ye"
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGG25MD
 # text_en = This place is also pretty.
-# translit =  Zhège dìfang yě hěn piàoliang.
+# translit = Zhège dìfang yě hěn piàoliang.
 # text_orig = 这 个 地方 也 很 漂亮。
 1	这	这	DET	_	_	2	det	_	Gloss=DEM.PROX|SpaceAfter=No|Tone=4|Translit=zhè
 2	个	个	NOUN	_	_	3	clf	_	Gloss=CLF|SpaceAfter=No|Tone=4|Translit=gè
@@ -913,7 +913,7 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGP0KFF
 # text_en = Are your father and your mother both Americans?
 # translit = Nǐ bàba  hé nǐ māma dōu shì Měiguó rén ma?
-# text_orig =  你 爸爸 和  你 妈妈 都 是 美国 人 吗 ？
+# text_orig = 你 爸爸 和  你 妈妈 都 是 美国 人 吗 ？
 1	你	你	PRON	_	Person=2	2	nmod	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
 2	爸爸	爸爸	NOUN	_	_	8	nsubj	_	SpaceAfter=No|Tone=4_4|Translit=bà_bà
 3	和	和	CCONJ	_	_	5	cc	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2|Translit=hé
@@ -949,7 +949,7 @@
 # structure_verbose = Expressing "and" with "he"
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGP0KFF
 # text_en = Are both German and French difficult?
-# translit =  Déyǔ hé Fǎyǔ dōu hěn nán ma?
+# translit = Déyǔ hé Fǎyǔ dōu hěn nán ma?
 # text_orig = 德语 和 法语 都 很 难 吗 ？
 1	德语	德语	NOUN	_	_	6	nsubj	_	SpaceAfter=No|Tone=2_3|Translit=dé_yǔ
 2	和	和	CCONJ	_	_	3	cc	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2|Translit=hé
@@ -967,7 +967,7 @@
 # structure_verbose = Expressing "and" with "he"
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGP0KFF
 # text_en = Are today and tomorrow both OK?
-# translit =  Jīntiān hé míngtiān dōu kěyǐ ma?
+# translit = Jīntiān hé míngtiān dōu kěyǐ ma?
 # text_orig = 今天 和 明天 都 可以 吗 ？
 1	今天	今天	NOUN	_	_	5	nsubj	_	SpaceAfter=No|Tone=1_1|Translit=jīn_tiān
 2	和	和	CCONJ	_	_	3	cc	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2|Translit=hé
@@ -1727,7 +1727,7 @@
 # structure_verbose = Expressing close possession without "de"
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGCI0KG
 # text_en = Your big brother is very tall.
-# translit =  Nǐ gēge hěn gāo.
+# translit = Nǐ gēge hěn gāo.
 # text_orig = 你 哥哥 很 高 。
 1	你	你	PRON	_	Person=2	2	nmod	_	Gloss=2SG|Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=nǐ
 2	哥哥	哥哥	NOUN	_	_	4	nsubj	_	Grammar_Target=Yes|SpaceAfter=No|Tone=1_1|Translit=gē_gē
@@ -1918,7 +1918,7 @@
 # structure_verbose = Expressing possession with "de"
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGUHQD2
 # text_en = dad's car
-# translit =  bàba de chē
+# translit = bàba de chē
 # text_orig = 爸爸 的 车
 1	爸爸	爸爸	NOUN	_	_	3	nmod	_	SpaceAfter=No|Tone=4_4|Translit=bà_bà
 2	的	的	PART	_	Case=Gen	1	case	_	Grammar_Target=Yes|SpaceAfter=No|Tone=5|Translit=de
@@ -1944,7 +1944,7 @@
 # structure_verbose = Expressing possession with "de"
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGUHQD2
 # text_en = Beijing's air
-# translit =  Běijīng de kōngqì
+# translit = Běijīng de kōngqì
 # text_orig = 北京 的 空气
 1	北京	北京	PROPN	_	_	3	nmod	_	SpaceAfter=No|Tone=3_1|Translit=běi_jīng
 2	的	的	PART	_	Case=Gen	1	case	_	Grammar_Target=Yes|SpaceAfter=No|Tone=5|Translit=de
@@ -2275,7 +2275,7 @@
 # structure_verbose = Expressing existence in a place with "zai"
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGLRWT8
 # text_en = Is the teacher not in the office?
-# translit =  Lǎoshī bù zài  bàngōngshì ma?
+# translit = Lǎoshī bù zài  bàngōngshì ma?
 # text_orig = 老师 不 在 办公室 吗？
 1	老师	老师	NOUN	_	_	3	nsubj	_	SpaceAfter=No|Tone=3_1|Translit=lǎo_shī
 2	不	不	ADV	_	Polarity=Neg	3	advmod	_	Gloss=NEG|SpaceAfter=No|Tone=4|Translit=bù
@@ -3342,7 +3342,7 @@
 # structure_verbose = Expressing a learned skill with "hui"
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGRHM0E
 # text_en = I can't speak English.
-# translit =  Wǒ bù huì shuō Yīngwén.
+# translit = Wǒ bù huì shuō Yīngwén.
 # text_orig = 我 不会 说 英文。
 1	我	我	PRON	_	Person=1	4	nsubj	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
 2	不	不	ADV	_	Polarity=Neg	4	advmod	_	Gloss=NEG|Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=bù
@@ -5500,7 +5500,7 @@
 # structure_verbose = Tag questions with "ma"
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGSJYZ2
 # text_en = Don't tell him, OK?
-# translit =  Bùyào gàosu tā, hǎo ma?
+# translit = Bùyào gàosu tā, hǎo ma?
 # text_orig = 不要 告诉 他 ， 好 吗 ？
 1	不	不	ADV	_	_	3	advmod	_	Gloss=NEG|SpaceAfter=No|Tone=4|Translit=bù
 2	要	要	AUX	_	_	3	aux	_	SpaceAfter=No|Tone=4|Translit=yào
@@ -25121,7 +25121,7 @@
 # structure_verbose = Expressing "to come from" with "laizi"
 # url = https://resources.allsetlearning.com/chinese/grammar/ASG1CEA8
 # text_en = These books all come from Japan.
-# translit =  Zhèxiē shū dōu láizì Rìběn.
+# translit = Zhèxiē shū dōu láizì Rìběn.
 # text_orig = 这些 书 都 来自 日本 。
 1	这	这	DET	_	_	2	det	_	Gloss=DEM.PROX|SpaceAfter=No|Tone=4|Translit=zhè
 2	些	些	NOUN	_	_	3	clf	_	Gloss=CLF|SpaceAfter=No|Tone=1|Translit=xiē
@@ -32923,7 +32923,7 @@
 # structure_verbose = A softer "but" with "buguo"
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGA0S4T
 # text_en = I like this piece of clothing, but it's a little bit expensive.
-# translit =  Zhè jiàn yīfu wǒ hěn xǐhuan, bùguò yǒudiǎn guì.
+# translit = Zhè jiàn yīfu wǒ hěn xǐhuan, bùguò yǒudiǎn guì.
 # text_orig = 这 件 衣服 我 很 喜欢 ，不过 有点 贵 。
 1	这	这	DET	_	_	2	det	_	Gloss=DEM.PROX|SpaceAfter=No|Tone=4|Translit=zhè
 2	件	件	NOUN	_	_	3	clf	_	SpaceAfter=No|Tone=4|Translit=jiàn
@@ -35341,7 +35341,7 @@
 # structure_verbose = Sequencing past events with "houlai"
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGY0UDC
 # text_en = Beijing used to be called Beiping. Later, the name was changed to Beijing.
-# translit =  Běijīng yǐqián jiào Běipíng, hòulái gǎi chéng le Běijīng.
+# translit = Běijīng yǐqián jiào Běipíng, hòulái gǎi chéng le Běijīng.
 # text_orig = 北京 以前 叫 北平 ，后来 改成 了 北京 。
 1	北京	北京	PROPN	_	_	3	nsubj	_	SpaceAfter=No|Tone=3_1|Translit=běi_jīng
 2	以前	以前	ADV	_	_	3	obl:tmod	_	SpaceAfter=No|Tone=3_2|Translit=yǐ_qián
@@ -36437,7 +36437,7 @@
 # structure_verbose = The "shi... de" construction for indicating purpose
 # url = https://resources.allsetlearning.com/chinese/grammar/ASG0UFR4
 # text_en = Are you really here to help us?
-# translit =  Nǐ zhēnde  shì lái bāng wǒmen de ma?
+# translit = Nǐ zhēnde  shì lái bāng wǒmen de ma?
 # text_orig = 你 真的 是 来 帮 我们 的 吗 ？
 1	你	你	PRON	_	Person=2	4	nsubj	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
 2	真的	真的	ADV	_	_	4	advmod	_	SpaceAfter=No|Tone=1_5|Translit=zhēn_de
@@ -42091,7 +42091,7 @@
 # level = B2
 # structure_verbose = Expressing "no matter" with "buguan"
 # url = https://resources.allsetlearning.com/chinese/grammar/ASG0NDS6
-# translit =  Bùguǎn nǐ shì shénme shíhou mǎi de, wǒmen dōu kěyǐ miǎnfèi xiū.No matter when you bought it, we can repair it for you for free.
+# translit = Bùguǎn nǐ shì shénme shíhou mǎi de, wǒmen dōu kěyǐ miǎnfèi xiū.No matter when you bought it, we can repair it for you for free.
 # text_orig = 不管 你 是 什么 时候 买 的 ，我们 都 可以 免费 修。
 1	不	不	ADV	_	Polarity=Neg	2	advmod	_	Gloss=NEG|Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=bù
 2	管	管	VERB	_	_	0	root	_	Grammar_Target=Yes|SpaceAfter=No|Tone=3|Translit=guǎn
