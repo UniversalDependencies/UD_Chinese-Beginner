@@ -151,8 +151,8 @@
 7	饮料	饮料	NOUN	_	_	13	nsubj	_	SpaceAfter=No|Tone=3_4|Translit=yǐn_liào
 8	无非	无非	ADV	_	_	13	advmod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2_1|Translit=wú_fēi
 9	是	是	AUX	_	_	13	cop	_	SpaceAfter=No|Tone=4|Translit=shì
-10	一	一	NUM	_	NumType=Card	11	nummod	_	Gloss=one|SpaceAfter=No|Tone=1|Translit=yī
-11	杯	杯	NOUN	_	_	13	clf	_	Gloss=CLF|SpaceAfter=No|Tone=1|Translit=bēi
+10	一	一	NUM	_	NumType=Card	13	nummod	_	Gloss=one|SpaceAfter=No|Tone=1|Translit=yī
+11	杯	杯	NOUN	_	_	10	clf	_	Gloss=CLF|SpaceAfter=No|Tone=1|Translit=bēi
 12	热	热	ADJ	_	_	13	amod	_	SpaceAfter=No|Tone=4|Translit=rè
 13	茶	茶	NOUN	_	_	0	root	_	SpaceAfter=No|Tone=2|Translit=chá
 14	而已	而已	ADV	_	_	13	advmod	_	SpaceAfter=No|Tone=2_3|Translit=ér_yǐ
@@ -185,8 +185,8 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGPV5Z2
 # text_en = Who sang that song again?
 # text_orig = 那 首 歌 是 谁 唱 的 来着 ？
-1	那	那	DET	_	_	2	det	_	Gloss=DEM.DIST|SpaceAfter=No|Tone=4|Translit=nà
-2	首	首	NOUN	_	_	3	clf	_	Gloss=CLF|SpaceAfter=No|Tone=3|Translit=shǒu
+1	那	那	DET	_	_	3	det	_	Gloss=DEM.DIST|SpaceAfter=No|Tone=4|Translit=nà
+2	首	首	NOUN	_	_	1	clf	_	Gloss=CLF|SpaceAfter=No|Tone=3|Translit=shǒu
 3	歌	歌	NOUN	_	_	6	nsubj:outer	_	SpaceAfter=No|Tone=1|Translit=gē
 4	是	是	AUX	_	_	6	cop	_	SpaceAfter=No|Tone=4|Translit=shì
 5	谁	谁	PRON	_	PronType=Int	6	nsubj	_	SpaceAfter=No|Tone=2|Translit=shúi
@@ -256,8 +256,8 @@
 # text_en = The investors and responsible parties involved in this project are all foreigners.
 # translit = Zhè gè xiàngmù de tóuzī rén yǐjí xiāngguān fùzé rén dōu shì wàiguó rén.
 # text_orig = 这个 项目 的 投资人 以及 相关 负责 人 都 是 外国 人 。
-1	这	这	DET	_	_	2	det	_	Gloss=DEM.PROX|SpaceAfter=No|Tone=4|Translit=zhè
-2	个	个	NOUN	_	_	3	clf	_	Gloss=CLF|SpaceAfter=No|Tone=4|Translit=gè
+1	这	这	DET	_	_	3	det	_	Gloss=DEM.PROX|SpaceAfter=No|Tone=4|Translit=zhè
+2	个	个	NOUN	_	_	1	clf	_	Gloss=CLF|SpaceAfter=No|Tone=4|Translit=gè
 3	项目	项目	NOUN	_	_	6	nmod	_	SpaceAfter=No|Tone=4_4|Translit=xiàng_mù
 4	的	的	PART	_	Case=Gen	3	case	_	SpaceAfter=No|Tone=5|Translit=de
 5	投资	投资	NOUN	_	_	6	nmod	_	SpaceAfter=No|Tone=2_1|Translit=tóu_zī
