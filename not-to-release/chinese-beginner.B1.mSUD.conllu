@@ -7271,7 +7271,7 @@
 # text_orig = 我 女儿 昨天 十二 点 才 睡觉 ，作业 太 多 了 。
 1	我	我	PRON	_	Person=1	2	nmod	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
 2	女儿	女儿	NOUN	_	_	8	nsubj	_	SpaceAfter=No|Tone=3_2|Translit=nv̌_ér
-3	昨天	昨天	NOUN	_	_	6	obl:tmod	_	SpaceAfter=No|Tone=2_1|Translit=zuó_tiān
+3	昨天	昨天	NOUN	_	_	6	nmod	_	SpaceAfter=No|Tone=2_1|Translit=zuó_tiān
 4	十	十	NUM	_	NumType=Card	6	nummod	_	SpaceAfter=No|Tone=2|Translit=shí
 5	二	二	NUM	_	NumType=Card	4	flat	_	SpaceAfter=No|Tone=4|Translit=èr
 6	点	点	NOUN	_	_	8	obl:tmod	_	SpaceAfter=No|Tone=3|Translit=diǎn
@@ -13879,7 +13879,7 @@
 # text_orig = 跟 他 比 ，你 最大 的 优势 是 什么 ？
 1	跟	跟	ADP	_	_	2	case	_	Grammar_Target=Yes|SpaceAfter=No|Tone=1|Translit=gēn
 2	他	他	PRON	_	Person=3	11	obl:arg	_	SpaceAfter=No|Tone=1|Translit=tā
-3	比	比	NOUN	_	_	2	obl:arg	_	SpaceAfter=No|Tone=3|Translit=bǐ
+3	比	比	NOUN	_	_	2	nmod	_	SpaceAfter=No|Tone=3|Translit=bǐ
 4	，	，	PUNCT	_	_	2	punct	_	SpaceAfter=No|Translit=，
 5	你	你	PRON	_	Person=2	7	obj	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
 6	最	最	ADV	_	_	7	advmod	_	SpaceAfter=No|Tone=4|Translit=zùi
