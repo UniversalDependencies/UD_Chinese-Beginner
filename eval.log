@@ -1,11 +1,15 @@
 Running the following version of UD tools:
-commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+commit 26e6c87a2f518322d15901a351199b6be6569062
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:07:42 2025 +0200
+Date:   Fri Nov 7 15:39:58 2025 +0100
 Evaluating the following revision of UD_Chinese-Beginner:
-commit 596bed4053d9fc7a73c16c1d045e7e4845f3c150
-Merge: ba9afd2 301d45c
+commit ef98e72a8dfbd59c3413d75e2b36d075504d5c11
+Merge: 4c2f8bc dbecf16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'zh_beginner'
+Language code (from CoNLL-U file name) = 'zh'
+Found the following data files: zh_beginner-ud-test.conllu
 Size: counted 19999 of 19999 words (nodes).
 Size: min(0, log((N/1000)**2)) = 5.9913645446079.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,25 +23,42 @@ Features: 3619 out of 19999 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Udapi:
-               TOTAL       5411
-Udapi: found 5411 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 19999 words.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang zh --max-err=10 UD_Chinese-Beginner/zh_beginner-ud-test.conllu
-[Line 38424 Sent 2912 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression '孩子 来说' does not have the 'ExtPos' feature
-[Line 41280 Sent 3461 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression '你 而言' does not have the 'ExtPos' feature
-Warnings: 2
-*** PASSED ***
-Validity: 1
-(weight=0.0769230769230769) * (score{features}=0.3) = 0.0230769230769231
-(weight=0.0769230769230769) * (score{genres}=0.0555555555555556) = 0.00427350427350427
-(weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
-(weight=0.256410256410256) * (score{size}=0.433669426799) = 0.11119728892282
-(weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
-(weight=0.0769230769230769) * (score{tags}=0.882352941176471) = 0.0678733031674208
-(weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
-(weight=0.0769230769230769) * (score{udeprels}=0.864864864864865) = 0.0665280665280665
-(TOTAL score=0.370384983404633) * (availability=1) * (validity=1) = 0.370384983404633
-STARS = 2
-UD_Chinese-Beginner	0.370384983404633	2
+[Line 11 Sent 1]: [L3 Warning pron-det-without-prontype] The word '我 wǒ' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 26 Sent 2]: [L3 Warning pron-det-without-prontype] The word '我们 wǒ_men' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 42 Sent 3]: [L3 Warning pron-det-without-prontype] The word '他 tā' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 58 Sent 4]: [L3 Warning pron-det-without-prontype] The word '他们 tā_men' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 74 Sent 5]: [L3 Warning pron-det-without-prontype] The word '我们 wǒ_men' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 91 Sent 6]: [L3 Warning pron-det-without-prontype] The word '你 nǐ' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 108 Sent 7]: [L3 Warning pron-det-without-prontype] The word '你们 nǐ_men' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 126 Sent 8]: [L3 Warning pron-det-without-prontype] The word '我 wǒ' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 144 Sent 9]: [L3 Warning pron-det-without-prontype] The word '他们 tā_men' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 161 Sent 10]: [L3 Warning pron-det-without-prontype] The word '这 zhè' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further errors regarding Warning
+[Line 2086 Sent 149]: [L3 Syntax too-many-objects] Multiple direct objects [2, 4] ('我 wǒ', '个 gè') under the predicate '给 gěi'.
+[Line 3174 Sent 221]: [L3 Syntax too-many-objects] Multiple direct objects [2, 5] ('车 chē', '小时 xiǎo_shí') under the predicate '开 kāi'.
+[Line 3232 Sent 224]: [L3 Syntax too-many-objects] Multiple direct objects [4, 8] ('我 wǒ', '号码 hào_mǎ') under the predicate '告诉 gào_sù'.
+[Line 3486 Sent 239]: [L3 Syntax too-many-objects] Multiple direct objects [7, 8] ('中国 zhōng_guó', '工作 gōng_zuò') under the predicate '来 lái'.
+[Line 6882 Sent 491]: [L3 Syntax too-many-objects] Multiple direct objects [6, 12] ('我 wǒ', '问题 wèn_tí') under the predicate '问 wèn'.
+[Line 9567 Sent 881]: [L3 Syntax too-many-objects] Multiple direct objects [7, 8] ('我 wǒ', '两 liǎng') under the predicate '花 huā'.
+[Line 9911 Sent 913]: [L3 Syntax too-many-objects] Multiple direct objects [7, 11] ('我 wǒ', '钱 qián') under the predicate '给 gěi'.
+[Line 10650 Sent 1050]: [L3 Syntax too-many-objects] Multiple direct objects [4, 5] ('小李 xiǎo_lǐ', '高 gāo') under the predicate '有 yǒu'.
+[Line 11080 Sent 1090]: [L3 Syntax too-many-objects] Multiple direct objects [4, 6] ('你 nǐ', '钱 qián') under the predicate '给 gěi'.
+[Line 11392 Sent 1262]: [L3 Syntax too-many-objects] Multiple direct objects [4, 7] ('你 nǐ', '好 hǎo') under the predicate '告诉 gào_sù'.
+...suppressing further errors regarding Syntax
+Syntax errors: 38
+Warnings: 2385
+*** FAILED *** with 38 errors
+Exit code: 1
+Validity: 0.01
+(weight=0.111111111111111) * (score{features}=0.3) = 0.0333333333333333
+(weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
+(weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
+(weight=0.37037037037037) * (score{size}=0.433669426799) = 0.160618306221852
+(weight=0.0740740740740741) * (score{split}=0.34) = 0.0251851851851852
+(weight=0.111111111111111) * (score{tags}=0.882352941176471) = 0.0980392156862745
+(weight=0.111111111111111) * (score{udeprels}=0.864864864864865) = 0.0960960960960961
+(TOTAL score=0.530556087140025) * (availability=1) * (validity=0.01) = 0.00530556087140025
+STARS = 0
+UD_Chinese-Beginner	0.00530556087140025	0
