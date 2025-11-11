@@ -21209,7 +21209,7 @@
 # text_en = Are you going to spend this Mid-Autumn Festival with your family?
 # translit = Jīnnián Zhōngqiūjié nǐ huì gēn jiārén yīqǐ guò ma?
 # text_orig = 今年 中秋节 你 会 跟 家人 一起 过  吗？
-1	今年	今年	NOUN	_	_	2	obl:tmod	_	SpaceAfter=No|Tone=1_2|Translit=jīn_nián
+1	今年	今年	NOUN	_	_	2	nmod	_	SpaceAfter=No|Tone=1_2|Translit=jīn_nián
 2	中秋节	中秋节	NOUN	_	_	8	obl:tmod	_	SpaceAfter=No|Tone=1_1_2|Translit=zhōng_qīu_jié
 3	你	你	PRON	_	Person=2	8	nsubj	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
 4	会	会	AUX	_	_	8	aux	_	SpaceAfter=No|Tone=4|Translit=hùi
@@ -22604,7 +22604,7 @@
 5	我	我	PRON	_	Person=1	6	nsubj	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
 6	没办法	没办法	VERB	_	_	3	flat	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2_4_3|Translit=méi_bàn_fǎ
 7	跟	跟	ADP	_	_	8	case	_	SpaceAfter=No|Tone=1|Translit=gēn
-8	他	他	PRON	_	Person=3	10	obl:arg	_	SpaceAfter=No|Tone=1|Translit=tā
+8	他	他	PRON	_	Person=3	10	nmod	_	SpaceAfter=No|Tone=1|Translit=tā
 9	一起	一起	ADV	_	_	10	advmod	_	SpaceAfter=No|Tone=1_3|Translit=yī_qǐ
 10	工作	工作	NOUN	_	_	6	obj	_	SpaceAfter=No|Tone=1_4|Translit=gōng_zuò
 11	。	。	PUNCT	_	_	6	punct	_	SpaceAfter=No|Translit=。
@@ -30464,7 +30464,7 @@
 # text_orig = 我 女儿 昨天 十二 点 才 睡觉 ，作业 太 多 了 。
 1	我	我	PRON	_	Person=1	2	nmod	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
 2	女儿	女儿	NOUN	_	_	8	nsubj	_	SpaceAfter=No|Tone=3_2|Translit=nv̌_ér
-3	昨天	昨天	NOUN	_	_	6	obl:tmod	_	SpaceAfter=No|Tone=2_1|Translit=zuó_tiān
+3	昨天	昨天	NOUN	_	_	6	nmod	_	SpaceAfter=No|Tone=2_1|Translit=zuó_tiān
 4	十	十	NUM	_	NumType=Card	6	nummod	_	SpaceAfter=No|Tone=2|Translit=shí
 5	二	二	NUM	_	NumType=Card	4	flat	_	SpaceAfter=No|Tone=4|Translit=èr
 6	点	点	NOUN	_	_	8	obl:tmod	_	SpaceAfter=No|Tone=3|Translit=diǎn
@@ -37072,7 +37072,7 @@
 # text_orig = 跟 他 比 ，你 最大 的 优势 是 什么 ？
 1	跟	跟	ADP	_	_	2	case	_	Grammar_Target=Yes|SpaceAfter=No|Tone=1|Translit=gēn
 2	他	他	PRON	_	Person=3	11	obl:arg	_	SpaceAfter=No|Tone=1|Translit=tā
-3	比	比	NOUN	_	_	2	obl:arg	_	SpaceAfter=No|Tone=3|Translit=bǐ
+3	比	比	NOUN	_	_	2	nmod	_	SpaceAfter=No|Tone=3|Translit=bǐ
 4	，	，	PUNCT	_	_	2	punct	_	SpaceAfter=No|Translit=，
 5	你	你	PRON	_	Person=2	7	obj	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
 6	最	最	ADV	_	_	7	advmod	_	SpaceAfter=No|Tone=4|Translit=zùi
@@ -38058,7 +38058,7 @@
 # translit = Wǒ xiànzài shíjiān duō de hěn, nǐ qù nǎr wǒ dōu kěyǐ péi nǐ qù.
 # text_orig = 我 现在 时间 多 得 很 ，你 去 哪儿 我 都 可以 陪 你 去 。
 1	我	我	PRON	_	Person=1	3	nmod	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
-2	现在	现在	NOUN	_	_	3	obl:tmod	_	SpaceAfter=No|Tone=4_4|Translit=xiàn_zài
+2	现在	现在	NOUN	_	_	3	nmod	_	SpaceAfter=No|Tone=4_4|Translit=xiàn_zài
 3	时间	时间	NOUN	_	_	4	nsubj	_	SpaceAfter=No|Tone=2_1|Translit=shí_jiān
 4	多	多	ADJ	_	_	0	root	_	SpaceAfter=No|Tone=1|Translit=duō
 5	得	得	PART	_	_	6	case	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2|Translit=dé

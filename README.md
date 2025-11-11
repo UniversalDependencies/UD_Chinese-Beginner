@@ -58,6 +58,7 @@ This annotation work is supported by the [Autogramm project](https://autogramm.g
 Data available since: UD v2.13
 License: CC BY-NC-SA 3.0
 Includes text: yes
+Parallel: no
 Genre: grammar-examples
 Lemmas: manual native
 UPOS: manual native

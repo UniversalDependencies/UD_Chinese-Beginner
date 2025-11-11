@@ -15455,7 +15455,7 @@
 # text_en = Are you going to spend this Mid-Autumn Festival with your family?
 # translit = Jīnnián Zhōngqiūjié nǐ huì gēn jiārén yīqǐ guò ma?
 # text_orig = 今年 中秋节 你 会 跟 家人 一起 过  吗？
-1	今年	今年	NOUN	_	_	2	obl:tmod	_	SpaceAfter=No|Tone=1_2|Translit=jīn_nián
+1	今年	今年	NOUN	_	_	2	nmod	_	SpaceAfter=No|Tone=1_2|Translit=jīn_nián
 2	中秋节	中秋节	NOUN	_	_	8	obl:tmod	_	SpaceAfter=No|Tone=1_1_2|Translit=zhōng_qīu_jié
 3	你	你	PRON	_	Person=2	8	nsubj	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
 4	会	会	AUX	_	_	8	aux	_	SpaceAfter=No|Tone=4|Translit=hùi
@@ -16850,7 +16850,7 @@
 5	我	我	PRON	_	Person=1	6	nsubj	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
 6	没办法	没办法	VERB	_	_	3	flat	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2_4_3|Translit=méi_bàn_fǎ
 7	跟	跟	ADP	_	_	8	case	_	SpaceAfter=No|Tone=1|Translit=gēn
-8	他	他	PRON	_	Person=3	10	obl:arg	_	SpaceAfter=No|Tone=1|Translit=tā
+8	他	他	PRON	_	Person=3	10	nmod	_	SpaceAfter=No|Tone=1|Translit=tā
 9	一起	一起	ADV	_	_	10	advmod	_	SpaceAfter=No|Tone=1_3|Translit=yī_qǐ
 10	工作	工作	NOUN	_	_	6	obj	_	SpaceAfter=No|Tone=1_4|Translit=gōng_zuò
 11	。	。	PUNCT	_	_	6	punct	_	SpaceAfter=No|Translit=。
