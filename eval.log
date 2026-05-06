@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Chinese-Beginner:
-commit ef98e72a8dfbd59c3413d75e2b36d075504d5c11
-Merge: 4c2f8bc dbecf16
+commit 7e443ca8f461d6710817822c13b03cf9ca74fbed
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 18:55:19 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'zh_beginner'
 Language code (from CoNLL-U file name) = 'zh'
@@ -25,30 +25,32 @@ Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang zh --max-err=10 UD_Chinese-Beginner/zh_beginner-ud-test.conllu
-[Line 11 Sent 1]: [L3 Warning pron-det-without-prontype] The word '我 wǒ' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 26 Sent 2]: [L3 Warning pron-det-without-prontype] The word '我们 wǒ_men' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 42 Sent 3]: [L3 Warning pron-det-without-prontype] The word '他 tā' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 58 Sent 4]: [L3 Warning pron-det-without-prontype] The word '他们 tā_men' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 74 Sent 5]: [L3 Warning pron-det-without-prontype] The word '我们 wǒ_men' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 91 Sent 6]: [L3 Warning pron-det-without-prontype] The word '你 nǐ' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 108 Sent 7]: [L3 Warning pron-det-without-prontype] The word '你们 nǐ_men' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 126 Sent 8]: [L3 Warning pron-det-without-prontype] The word '我 wǒ' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 144 Sent 9]: [L3 Warning pron-det-without-prontype] The word '他们 tā_men' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 161 Sent 10]: [L3 Warning pron-det-without-prontype] The word '这 zhè' is tagged 'DET' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-[Line 2086 Sent 149]: [L3 Syntax too-many-objects] Multiple direct objects [2, 4] ('我 wǒ', '个 gè') under the predicate '给 gěi'.
-[Line 3174 Sent 221]: [L3 Syntax too-many-objects] Multiple direct objects [2, 5] ('车 chē', '小时 xiǎo_shí') under the predicate '开 kāi'.
-[Line 3232 Sent 224]: [L3 Syntax too-many-objects] Multiple direct objects [4, 8] ('我 wǒ', '号码 hào_mǎ') under the predicate '告诉 gào_sù'.
-[Line 3486 Sent 239]: [L3 Syntax too-many-objects] Multiple direct objects [7, 8] ('中国 zhōng_guó', '工作 gōng_zuò') under the predicate '来 lái'.
-[Line 6882 Sent 491]: [L3 Syntax too-many-objects] Multiple direct objects [6, 12] ('我 wǒ', '问题 wèn_tí') under the predicate '问 wèn'.
-[Line 9567 Sent 881]: [L3 Syntax too-many-objects] Multiple direct objects [7, 8] ('我 wǒ', '两 liǎng') under the predicate '花 huā'.
-[Line 9911 Sent 913]: [L3 Syntax too-many-objects] Multiple direct objects [7, 11] ('我 wǒ', '钱 qián') under the predicate '给 gěi'.
-[Line 10650 Sent 1050]: [L3 Syntax too-many-objects] Multiple direct objects [4, 5] ('小李 xiǎo_lǐ', '高 gāo') under the predicate '有 yǒu'.
-[Line 11080 Sent 1090]: [L3 Syntax too-many-objects] Multiple direct objects [4, 6] ('你 nǐ', '钱 qián') under the predicate '给 gěi'.
-[Line 11392 Sent 1262]: [L3 Syntax too-many-objects] Multiple direct objects [4, 7] ('你 nǐ', '好 hǎo') under the predicate '告诉 gào_sù'.
-...suppressing further errors regarding Syntax
-Syntax errors: 38
+[Line 11 Sent 1]: [L3 WARNING pron-det-without-prontype] The word '我 wǒ' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 26 Sent 2]: [L3 WARNING pron-det-without-prontype] The word '我们 wǒ_men' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 42 Sent 3]: [L3 WARNING pron-det-without-prontype] The word '他 tā' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 58 Sent 4]: [L3 WARNING pron-det-without-prontype] The word '他们 tā_men' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 74 Sent 5]: [L3 WARNING pron-det-without-prontype] The word '我们 wǒ_men' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 91 Sent 6]: [L3 WARNING pron-det-without-prontype] The word '你 nǐ' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 108 Sent 7]: [L3 WARNING pron-det-without-prontype] The word '你们 nǐ_men' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 126 Sent 8]: [L3 WARNING pron-det-without-prontype] The word '我 wǒ' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 144 Sent 9]: [L3 WARNING pron-det-without-prontype] The word '他们 tā_men' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 161 Sent 10]: [L3 WARNING pron-det-without-prontype] The word '这 zhè' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 2086 Sent 149]: [L3 SYNTAX too-many-objects] Multiple direct objects [2, 4] ('我 wǒ', '个 gè') under the predicate '给 gěi'.
+[Line 3174 Sent 221]: [L3 SYNTAX too-many-objects] Multiple direct objects [2, 5] ('车 chē', '小时 xiǎo_shí') under the predicate '开 kāi'.
+[Line 3232 Sent 224]: [L3 SYNTAX too-many-objects] Multiple direct objects [4, 8] ('我 wǒ', '号码 hào_mǎ') under the predicate '告诉 gào_sù'.
+[Line 3486 Sent 239]: [L3 SYNTAX too-many-objects] Multiple direct objects [7, 8] ('中国 zhōng_guó', '工作 gōng_zuò') under the predicate '来 lái'.
+[Line 6882 Sent 491]: [L3 SYNTAX too-many-objects] Multiple direct objects [6, 12] ('我 wǒ', '问题 wèn_tí') under the predicate '问 wèn'.
+[Line 9567 Sent 881]: [L3 SYNTAX too-many-objects] Multiple direct objects [7, 8] ('我 wǒ', '两 liǎng') under the predicate '花 huā'.
+[Line 9911 Sent 913]: [L3 SYNTAX too-many-objects] Multiple direct objects [7, 11] ('我 wǒ', '钱 qián') under the predicate '给 gěi'.
+[Line 10650 Sent 1050]: [L3 SYNTAX too-many-objects] Multiple direct objects [4, 5] ('小李 xiǎo_lǐ', '高 gāo') under the predicate '有 yǒu'.
+[Line 11080 Sent 1090]: [L3 SYNTAX too-many-objects] Multiple direct objects [4, 6] ('你 nǐ', '钱 qián') under the predicate '给 gěi'.
+[Line 11392 Sent 1262]: [L3 SYNTAX too-many-objects] Multiple direct objects [4, 7] ('你 nǐ', '好 hǎo') under the predicate '告诉 gào_sù'.
+...suppressing further messages regarding ERROR/SYNTAX
+[Line 38424 Sent 2912]: [L3 WARNING fixed-without-extpos] Fixed expression '孩子 来说' does not have the 'ExtPos' feature
+[Line 41280 Sent 3461]: [L3 WARNING fixed-without-extpos] Fixed expression '你 而言' does not have the 'ExtPos' feature
 Warnings: 2385
+SYNTAX errors: 38
 *** FAILED *** with 38 errors
 Exit code: 1
 Validity: 0.01
