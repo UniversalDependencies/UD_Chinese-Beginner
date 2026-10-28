@@ -1,4 +1,3 @@
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = 4324
 # structure = Subj. + Verb + 得 + 倒 + Adj.
 # text = 说得倒容易，那你来！
