@@ -1,4 +1,3 @@
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = 4286
 # structure = 或者 A ，或者 B
 # text = 咱们或者去爬山或者泡温泉。
@@ -660,7 +659,7 @@
 3	的	的	PART	_	Case=Gen	1	mark	_	SpaceAfter=No|Tone=5|Translit=de
 4	事情	事情	NOUN	_	_	5	nsubj	_	SpaceAfter=No|Tone=4_2|Translit=shì_qíng
 5	让	让	VERB	_	_	0	root	_	SpaceAfter=No|Tone=4|Translit=ràng
-6	他	他	PRON	_	Person=3	5	obj	_	SpaceAfter=No|Tone=1|Translit=tā
+6	他	他	PRON	_	Person=3	5	dep	_	SpaceAfter=No|Tone=1|Translit=tā
 7	高兴	高兴	ADJ	_	_	5	obj	_	Gloss=tall|SpaceAfter=No|Tone=1_1|Translit=gāo_xīng
 8	得	得	PART	_	_	9	mark	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2|Translit=dé
 9	不得了	不得了	VERB	_	_	7	acl	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4_2_5|Translit=bù_dé_le
@@ -677,7 +676,7 @@
 # text_orig = 他 跟 老总 的 关系 好 得 不得了，你 一定 要 小心！
 1	他	他	PRON	_	Person=3	5	nmod	_	SpaceAfter=No|Tone=1|Translit=tā
 2	跟	跟	ADP	_	_	3	case	_	SpaceAfter=No|Tone=1|Translit=gēn
-3	老总	老总	NOUN	_	_	4	obl:arg	_	SpaceAfter=No|Tone=3_3|Translit=lǎo_zǒng
+3	老总	老总	NOUN	_	_	1	nmod	_	SpaceAfter=No|Tone=3_3|Translit=lǎo_zǒng
 4	的	的	PART	_	Case=Gen	1	case	_	SpaceAfter=No|Tone=5|Translit=de
 5	关系	关系	NOUN	_	_	6	nsubj	_	SpaceAfter=No|Tone=1_4|Translit=guān_xì
 6	好	好	ADJ	_	_	0	root	_	Gloss=good|SpaceAfter=No|Tone=3|Translit=hǎo
@@ -747,7 +746,7 @@
 3	说	说	VERB	_	_	12	ccomp	_	SpaceAfter=No|Tone=1|Translit=shuō
 4	要	要	AUX	_	_	5	aux	_	SpaceAfter=No|Tone=4|Translit=yào
 5	给	给	VERB	_	_	3	ccomp	_	SpaceAfter=No|Tone=3|Translit=gěi
-6	我	我	PRON	_	Person=1	5	obj	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
+6	我	我	PRON	_	Person=1	5	dep	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
 7	一	一	NUM	_	NumType=Card	9	nummod	_	Gloss=one|SpaceAfter=No|Tone=1|Translit=yī
 8	个	个	NOUN	_	_	7	clf	_	Gloss=CLF|SpaceAfter=No|Tone=4|Translit=gè
 9	礼物	礼物	NOUN	_	_	5	obj	_	SpaceAfter=No|Tone=3_4|Translit=lǐ_wù
@@ -1646,7 +1645,7 @@
 5	，	，	PUNCT	_	_	7	punct	_	SpaceAfter=No|Translit=，
 6	天天	天天	NOUN	_	_	7	obl	_	SpaceAfter=No|Tone=1_1|Translit=tiān_tiān
 7	说	说	VERB	_	_	3	parataxis	_	SpaceAfter=No|Tone=1|Translit=shuō
-8	我	我	PRON	_	Person=1	7	obj	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
+8	我	我	PRON	_	Person=1	7	dep	_	Gloss=1SG|SpaceAfter=No|Tone=3|Translit=wǒ
 9	坏	坏	ADJ	_	_	10	amod	_	SpaceAfter=No|Tone=4|Translit=huài
 10	话	话	NOUN	_	_	7	obj	_	SpaceAfter=No|Tone=4|Translit=huà
 11	。	。	PUNCT	_	_	3	punct	_	SpaceAfter=No|Translit=。
@@ -1692,7 +1691,7 @@
 10	的	的	PART	_	Case=Gen	9	mark	_	SpaceAfter=No|Tone=5|Translit=de
 11	每	每	DET	_	_	13	det	_	SpaceAfter=No|Tone=3|Translit=měi
 12	句	句	NOUN	_	_	11	clf	_	Gloss=CLF|SpaceAfter=No|Tone=4|Translit=jù
-13	中文	中文	NOUN	_	_	16	obj	_	SpaceAfter=No|Tone=1_2|Translit=zhōng_wén
+13	中文	中文	NOUN	_	_	16	dep	_	SpaceAfter=No|Tone=1_2|Translit=zhōng_wén
 14	你	你	PRON	_	Person=2	16	nsubj	_	Gloss=2SG|SpaceAfter=No|Tone=3|Translit=nǐ
 15	都	都	ADV	_	_	16	advmod	_	SpaceAfter=No|Tone=1|Translit=dū
 16	纠正	纠正	VERB	_	_	2	parataxis	_	SpaceAfter=No|Tone=1_4|Translit=jīu_zhèng
@@ -3475,14 +3474,14 @@
 7	今天	今天	NOUN	_	_	8	obl	_	SpaceAfter=No|Tone=1_1|Translit=jīn_tiān
 8	做	做	VERB	_	_	0	root	_	Gloss=do|SpaceAfter=No|Tone=4|Translit=zuò
 9	完	完	VERB	_	_	8	compound:vv	_	SpaceAfter=No|Tone=2|Translit=wán
-10	的	的	PART	_	Case=Gen	6	mark	_	SpaceAfter=No|Tone=5|Translit=de
+10	的	的	PART	_	Case=Gen	8	mark	_	SpaceAfter=No|Tone=5|Translit=de
 11	，	，	PUNCT	_	_	16	punct	_	SpaceAfter=No|Translit=，
 12	不过	不过	SCONJ	_	_	16	cc	_	Gloss=NEG|SpaceAfter=No|Tone=4_4|Translit=bù_guò
 13	明天	明天	NOUN	_	_	14	obl	_	SpaceAfter=No|Tone=2_1|Translit=míng_tiān
 14	做	做	VERB	_	_	16	csubj	_	Gloss=do|SpaceAfter=No|Tone=4|Translit=zuò
 15	也	也	ADV	_	_	16	advmod	_	SpaceAfter=No|Tone=3|Translit=yě
 16	可以	可以	ADJ	_	_	8	parataxis	_	SpaceAfter=No|Tone=3_3|Translit=kě_yǐ
-17	。	。	PUNCT	_	_	16	punct	_	SpaceAfter=No|Translit=。
+17	。	。	PUNCT	_	_	8	punct	_	SpaceAfter=No|Translit=。
 
 # sent_id = 3174
 # structure = Subj. + 本来 + 是 +（不）[要 / 会 / 应该] + Verb + 的，[但是 / 可是 / 不过]...
@@ -3562,7 +3561,7 @@
 # text_orig = 他 是 羽毛球 冠军，和 你 打 羽毛球 简直 是 太 简单 了 。
 1	他	他	PRON	_	Person=3	4	nsubj	_	SpaceAfter=No|Tone=1|Translit=tā
 2	是	是	AUX	_	_	4	cop	_	SpaceAfter=No|Tone=4|Translit=shì
-3	羽毛球	羽毛球	NOUN	_	_	8	obj	_	SpaceAfter=No|Tone=3_2_2|Translit=yǔ_máo_qíu
+3	羽毛球	羽毛球	NOUN	_	_	8	dep	_	SpaceAfter=No|Tone=3_2_2|Translit=yǔ_máo_qíu
 4	冠军	冠军	NOUN	_	_	0	root	_	SpaceAfter=No|Tone=1_1|Translit=guān_jūn
 5	，	，	PUNCT	_	_	6	punct	_	SpaceAfter=No|Translit=，
 6	和	和	CCONJ	_	_	13	cc	_	SpaceAfter=No|Tone=2|Translit=hé
@@ -3792,7 +3791,7 @@
 1	以后	以后	ADV	_	_	8	obl:tmod	_	SpaceAfter=No|Tone=3_4|Translit=yǐ_hòu
 2	后	后	NOUN	_	_	3	obj	_	SpaceAfter=No|Tone=4|Translit=hòu
 3	悔	悔	VERB	_	_	5	acl	_	SpaceAfter=No|Tone=3|Translit=hǔi
-4	的	的	PART	_	Case=Gen	2	case	_	SpaceAfter=No|Tone=5|Translit=de
+4	的	的	PART	_	Case=Gen	3	mark	_	SpaceAfter=No|Tone=5|Translit=de
 5	人	人	NOUN	_	_	8	nsubj	_	SpaceAfter=No|Tone=2|Translit=rén
 6	不	不	ADV	_	_	8	advmod	_	Gloss=NEG|Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=bù
 7	是	是	AUX	_	_	8	cop	_	Grammar_Target=Yes|SpaceAfter=No|Tone=4|Translit=shì
@@ -3868,7 +3867,7 @@
 6	当中	当中	NOUN	_	_	8	nmod	_	Grammar_Target=Yes|SpaceAfter=No|Tone=1_1|Translit=dāng_zhōng
 7	最	最	ADV	_	_	8	advmod	_	SpaceAfter=No|Tone=4|Translit=zùi
 8	聪明	聪明	ADJ	_	_	10	nmod	_	SpaceAfter=No|Tone=1_2|Translit=cōng_míng
-9	的	的	PART	_	Case=Gen	5	case	_	SpaceAfter=No|Tone=5|Translit=de
+9	的	的	PART	_	Case=Gen	8	case	_	SpaceAfter=No|Tone=5|Translit=de
 10	一个	一个	NOUN	_	_	0	root	_	SpaceAfter=No|Tone=1_4|Translit=yī_gè
 11	。	。	PUNCT	_	_	10	punct	_	SpaceAfter=No|Translit=。
 
@@ -4189,7 +4188,7 @@
 10	是	是	AUX	_	_	14	cop	_	SpaceAfter=No|Tone=4|Translit=shì
 11	辆	辆	NOUN	_	_	12	obj	_	SpaceAfter=No|Tone=4|Translit=liàng
 12	普通	普通	ADJ	_	_	14	nmod	_	SpaceAfter=No|Tone=3_1|Translit=pǔ_tōng
-13	的	的	PART	_	Case=Gen	11	case	_	SpaceAfter=No|Tone=5|Translit=de
+13	的	的	PART	_	Case=Gen	12	case	_	SpaceAfter=No|Tone=5|Translit=de
 14	汽车	汽车	NOUN	_	_	6	parataxis	_	SpaceAfter=No|Tone=4_1|Translit=qì_chē
 15	而已	而已	SCONJ	_	_	14	discourse	_	Grammar_Target=Yes|SpaceAfter=No|Tone=2_3|Translit=ér_yǐ
 16	。	。	PUNCT	_	_	14	punct	_	SpaceAfter=No|Translit=。
