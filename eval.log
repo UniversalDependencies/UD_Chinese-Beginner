@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 5 17:01:41 2026 +0200
+Date:   Tue Nov 10 13:08:27 2026 +0100
 Evaluating the following revision of UD_Chinese-Beginner:
-commit 7e443ca8f461d6710817822c13b03cf9ca74fbed
+commit 094c9ca03bcde48418a9a0baf6e4dc66b73c2d46
+Merge: be33e24 1897cec
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 11 18:55:19 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'zh_beginner'
 Language code (from CoNLL-U file name) = 'zh'
@@ -36,24 +36,11 @@ Genres: found 1 out of 18 known.
 [Line 144 Sent 9]: [L3 WARNING pron-det-without-prontype] The word '他们 tā_men' is tagged 'PRON' but it lacks the 'PronType' feature
 [Line 161 Sent 10]: [L3 WARNING pron-det-without-prontype] The word '这 zhè' is tagged 'DET' but it lacks the 'PronType' feature
 ...suppressing further messages regarding WARNING/MORPHO
-[Line 2086 Sent 149]: [L3 SYNTAX too-many-objects] Multiple direct objects [2, 4] ('我 wǒ', '个 gè') under the predicate '给 gěi'.
-[Line 3174 Sent 221]: [L3 SYNTAX too-many-objects] Multiple direct objects [2, 5] ('车 chē', '小时 xiǎo_shí') under the predicate '开 kāi'.
-[Line 3232 Sent 224]: [L3 SYNTAX too-many-objects] Multiple direct objects [4, 8] ('我 wǒ', '号码 hào_mǎ') under the predicate '告诉 gào_sù'.
-[Line 3486 Sent 239]: [L3 SYNTAX too-many-objects] Multiple direct objects [7, 8] ('中国 zhōng_guó', '工作 gōng_zuò') under the predicate '来 lái'.
-[Line 6882 Sent 491]: [L3 SYNTAX too-many-objects] Multiple direct objects [6, 12] ('我 wǒ', '问题 wèn_tí') under the predicate '问 wèn'.
-[Line 9567 Sent 881]: [L3 SYNTAX too-many-objects] Multiple direct objects [7, 8] ('我 wǒ', '两 liǎng') under the predicate '花 huā'.
-[Line 9911 Sent 913]: [L3 SYNTAX too-many-objects] Multiple direct objects [7, 11] ('我 wǒ', '钱 qián') under the predicate '给 gěi'.
-[Line 10650 Sent 1050]: [L3 SYNTAX too-many-objects] Multiple direct objects [4, 5] ('小李 xiǎo_lǐ', '高 gāo') under the predicate '有 yǒu'.
-[Line 11080 Sent 1090]: [L3 SYNTAX too-many-objects] Multiple direct objects [4, 6] ('你 nǐ', '钱 qián') under the predicate '给 gěi'.
-[Line 11392 Sent 1262]: [L3 SYNTAX too-many-objects] Multiple direct objects [4, 7] ('你 nǐ', '好 hǎo') under the predicate '告诉 gào_sù'.
-...suppressing further messages regarding ERROR/SYNTAX
 [Line 38424 Sent 2912]: [L3 WARNING fixed-without-extpos] Fixed expression '孩子 来说' does not have the 'ExtPos' feature
 [Line 41280 Sent 3461]: [L3 WARNING fixed-without-extpos] Fixed expression '你 而言' does not have the 'ExtPos' feature
 Warnings: 2385
-SYNTAX errors: 38
-*** FAILED *** with 38 errors
-Exit code: 1
-Validity: 0.01
+*** PASSED ***
+Validity: 1
 (weight=0.111111111111111) * (score{features}=0.3) = 0.0333333333333333
 (weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
 (weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
@@ -61,6 +48,6 @@ Validity: 0.01
 (weight=0.0740740740740741) * (score{split}=0.34) = 0.0251851851851852
 (weight=0.111111111111111) * (score{tags}=0.882352941176471) = 0.0980392156862745
 (weight=0.111111111111111) * (score{udeprels}=0.864864864864865) = 0.0960960960960961
-(TOTAL score=0.530556087140025) * (availability=1) * (validity=0.01) = 0.00530556087140025
-STARS = 0
-UD_Chinese-Beginner	0.00530556087140025	0
+(TOTAL score=0.530556087140025) * (availability=1) * (validity=1) = 0.530556087140025
+STARS = 2.5
+UD_Chinese-Beginner	0.530556087140025	2.5
